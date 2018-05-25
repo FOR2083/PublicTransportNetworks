@@ -1,8 +1,8 @@
 # VISUM Format
 The input contains the following files to describe the network supply:
--	Demand.mtx
--	Infrastructure.net
--	Versionfile.ver
+-	Demand.mtx: text file with demand data
+-	Infrastructure.net: text file with supply data
+-	Versionfile.ver: binary demand and supply data in VISUM Format 
 
 An additional explanation of the files is given below for each input file.
 
