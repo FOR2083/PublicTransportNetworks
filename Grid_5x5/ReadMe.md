@@ -3,6 +3,8 @@
 ## Description
 A grid network with 5 rows and 5 columns.
 
+![02_grid_network 2](https://user-images.githubusercontent.com/30687001/41582538-349a2e1c-73a2-11e8-9390-a0e6acdfa95e.jpg)
+
 ## Supply Data
 | Network       | Value  | Unit |
 | ---           | ---    |---   |
