@@ -18,6 +18,8 @@ A grid network with 5 rows and 5 columns.
 | OD-pairs     |    600 | [-]        |
 | Trips        |   2531 | [Trips/h]  |
 
+![02_grid_od_en 2](https://user-images.githubusercontent.com/30687001/41599681-33d15ac8-73d4-11e8-9c63-aeda6805e248.jpg)
+
 ## Vehicle and Operating Cost Data
 One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. There are no minimum layover times at the terminals.
 
