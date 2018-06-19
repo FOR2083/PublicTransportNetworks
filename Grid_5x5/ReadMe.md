@@ -2,6 +2,7 @@
 
 ## Description
 A grid network with 5 rows and 5 columns.
+
 ![02_grid_network 2](https://user-images.githubusercontent.com/30687001/41600232-9cdc9f36-73d5-11e8-8b7a-43781dc9ddea.jpg)
 
 ## Supply Data
@@ -16,6 +17,7 @@ A grid network with 5 rows and 5 columns.
 | ---          | ---    |---         |
 | OD-pairs     |    600 | [-]        |
 | Trips        |   2531 | [Trips/h]  |
+
 ![02_grid_od_en 2](https://user-images.githubusercontent.com/30687001/41599681-33d15ac8-73d4-11e8-9c63-aeda6805e248.jpg)
 
 ## Vehicle and Operating Cost Data
