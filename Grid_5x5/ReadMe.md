@@ -3,7 +3,7 @@
 ## Description
 A grid network with 5 rows and 5 columns.
 
-![grid_network](PublicTransportNetworks/Grid_5x5/Input/Image/02_Grid_Network_EN.2.jpg)
+![grid_network](Input/Image/02_Grid_Network_EN.2.jpg)
 
 ## Supply Data
 | Network       | Value  | Unit |
@@ -18,10 +18,10 @@ A grid network with 5 rows and 5 columns.
 | OD-pairs     |    600 | [-]        |
 | Trips        |   2531 | [Trips/h]  |
 
-![grid_demand](PublicTransportNetworks/Grid_5x5/Input/Image/02_Grid_Demand_EN.2.jpg)
+![grid_demand](Input/Image/02_Grid_Demand_EN.2.jpg)
 
 Attention: only the first 100 greatest values for odpairs are displayed.
-![grid_demand_od](PublicTransportNetworks/Grid_5x5/Input/Image/02_Grid_Demand_OD_EN.2.jpg)
+![grid_demand_od](Input/Image/02_Grid_Demand_OD_EN.2.jpg)
 
 ## Vehicle and Operating Cost Data
 One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. There are no minimum layover times at the terminals.
