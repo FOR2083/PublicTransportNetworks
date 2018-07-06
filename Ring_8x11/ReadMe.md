@@ -1,9 +1,9 @@
-# Ring 8x11 Instance
+# Grid 5x5 Instance
 
 ## Description
-A ring network with 8 radial axies and 11 circles.
+A ring network with 11 rings and 8 radial axes.
 
-Bild
+![10_ring_network_en 2](https://user-images.githubusercontent.com/30687001/42365168-fe730390-80fd-11e8-8649-e9c7d03990a0.jpg)
 
 ## Supply Data
 | Network       | Value   | Unit |
@@ -16,9 +16,12 @@ Bild
 | Demand       | Value    | Unit       | 
 | ---          | ---      |---         |
 | OD-pairs     |    25760 | [-]        |
-| Trips        |    2766  | [Trips/h]  |
+| Trips        |     2766 | [Trips/h]  |
 
-Bild
+![10_ring_demand_en 2](https://user-images.githubusercontent.com/30687001/42365193-1009ef10-80fe-11e8-8cd7-4022bfbd089e.jpg)
+
+Attention: only the first 100 greatest values for odpairs are displayed.
+![10_ring_relocation_en 2](https://user-images.githubusercontent.com/30687001/42365204-1cf5963e-80fe-11e8-96b6-1265dde26bfa.jpg)
 
 ## Vehicle and Operating Cost Data
 One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. There are no minimum layover times at the terminals.
