@@ -1,0 +1,44 @@
+#lc_model; "traveling-time-cg"
+#lc_model; "direct"
+#lc_model; "cost_rewarding_high_frequencies"
+rollout_whole_trips; true
+ean_construction_target_model_frequency; "FREQUENCY_AS_MULTIPLICITY"
+#lc_budget; 550
+#ean_construction_target_model_change; "LCM_SIMPLIFICATION"
+tim_eval_extended; true
+stops_header; "stop-id; short-name; long-name"
+edges_header; "edge-id; left-stop-id; right-stop-id; length; lower-bound; upper-bound"
+loads_header; "edge-id; load; lower-frequency; upper-frequency"
+gen_vehicle_speed; 20
+workbook_name; "D02_N01_S01_V001_05.xlsx"
+nodes_sheet_name; Knoten
+edges_sheet_name; Strecken
+od_sheet_name; Matrix
+line_sheet_name; Linienrouten
+info_sheet_name; Info
+timetable_sheet_name; Fahrplanfahrten
+index_row; 5
+stop_short_name_label; $KNOTEN:NR
+stop_long_name_label; NAME
+stop_x_coordinate_label; XKOORD
+stop_y_coordinate_label; YKOORD
+edge_source_label; VONKNOTNR
+edge_target_label; NACHKNOTNR
+edge_length_label; LAENGE
+edge_load_label;BELPERS-NSEG(ÖV,0700)
+od_source_label; $BEZIRKSBEZIEHUNG:VONBEZNR
+od_target_label; NACHBEZNR
+od_value_label;MATWERT(66)
+line_name_label; $LINIENROUTENELEMENT:LINNAME
+line_stop_label; HPUNKTNR
+line_direction_label; RICHTUNGCODE
+line_info_name_label; Linie
+line_info_headway_label; Takt
+timetable_line_name_label; LINNAME
+timetable_direction_label; RICHTUNGCODE
+timetable_departure_label; ABFAHRT
+default_lines_starting_time_file; timetabling/Line-starting-times.lin
+vs_model; MDM2
+rollout_whole_trips; true
+vs_model; MDM2
+rollout_whole_trips; true
