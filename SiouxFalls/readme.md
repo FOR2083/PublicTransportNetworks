@@ -8,7 +8,7 @@ https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls
 http://www.bgu.ac.il/%7Ebargera/tntp/
 http://www.bgu.ac.il/~bargera/tntp/SiouxFalls_CNDP/SiouxFallsVariantsForNetworkDesign.html
 
-![12_siouxfalls_network_en 2](https://user-images.githubusercontent.com/30687001/42365240-302c904a-80fe-11e8-8024-ddc68b2b9d04.jpg)
+![siouxfalls_network](Input/Image/12_SiouxFalls_Network_EN.2.jpg)
 
 ## Supply Data
 | Network       | Value   | Unit |
@@ -26,12 +26,10 @@ http://www.bgu.ac.il/~bargera/tntp/SiouxFalls_CNDP/SiouxFallsVariantsForNetworkD
 * The original trips are provided [here](https://github.com/bstabler/TransportationNetworks/tree/master/SiouxFalls). The the number of trips are customize to fit hourly loads according to:
 Trips_Cust = 0.1 * Trips / 7
 
-
-![12_siouxfalls_demand_en 2](https://user-images.githubusercontent.com/30687001/42365249-3939be06-80fe-11e8-9add-72c9c78919cb.jpg)
+![siouxfalls_demand](Input/Image/12_SiouxFalls_Demand_EN.2.jpg)
 
 Attention: only the first 100 greatest values for odpairs are displayed.
-![12_siouxfalls_relocation_en 2](https://user-images.githubusercontent.com/30687001/42365263-43239d74-80fe-11e8-912f-7b5015a385df.jpg)
-
+![siouxfalls_demand_od](Input/Image/12_SiouxFalls_Demand_OD_EN.2.jpg)
 
 ## Vehicle and Operating Cost Data
 One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. There are no minimum layover times at the terminals.
