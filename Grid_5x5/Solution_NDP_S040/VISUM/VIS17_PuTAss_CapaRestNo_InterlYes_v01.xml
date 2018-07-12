@@ -1,0 +1,3173 @@
+<?xml  version = "1.0"  encoding = "UTF-8"?>
+<PROCEDURES  VERSION = "1705">
+  <FUNCTIONS>
+    <PUTSKIMMATRIXSETTINGS
+      USELONGLENGTH = "1"
+      USESECONDS = "0"
+      USESECONDSIMP = "0"
+      PATHLEGATTRIBUTE = "LINEROUTE\ADDVAL1"
+      PATHLEGAGGREGATETYPE = "MAX"
+      DISCOMFORTPARAA = "7.5"
+      DISCOMFORTPARAB = "4.5">
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYTIME"
+        CODE = "JRT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "10"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYTIMEADAPTED"
+        CODE = "JRTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDETIME"
+        CODE = "RIT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDETIMEADAPTED"
+        CODE = "RITA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHTIME"
+        CODE = "IVT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PUTAUXTIME"
+        CODE = "AXT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ORIGINWAITTIME"
+        CODE = "OWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "2"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ORIGINWAITTIMEADAPTED"
+        CODE = "OWTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "2"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRANSFERWAITTIME"
+        CODE = "TWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRANSFERWAITTIMEADAPTED"
+        CODE = "TWTA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTTRANSFERWAITTIME"
+        CODE = "XTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WEIGHTEDORIGINWAITTIME"
+        CODE = "WOWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WEIGHTEDTRANSFERWAITTIME"
+        CODE = "WTWT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WALKTIME"
+        CODE = "WKT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ACCESSTIME"
+        CODE = "ACT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EGRESSTIME"
+        CODE = "EGT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PERCEIVEDJOURNEYTIME"
+        CODE = "PJT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "10"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMTRANSFERS"
+        CODE = "NTR"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTIMPEDANCE"
+        CODE = "XIMP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SERVICEFREQUENCY"
+        CODE = "SFQ"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGTRAVELTIME"
+        CODE = "SHTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGRENTALPROCESSTIME"
+        CODE = "SHAT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGTRAVELDIST"
+        CODE = "SHTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "SHARINGRETURNPROCESSTIME"
+        CODE = "SHET"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDIST"
+        CODE = "DID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYDIST"
+        CODE = "JRD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "1"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "RIDEDIST"
+        CODE = "RID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDIST"
+        CODE = "IVD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PUTAUXDIST"
+        CODE = "AXD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "WALKDIST"
+        CODE = "WKD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ACCESSDIST"
+        CODE = "ACD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EGRESSDIST"
+        CODE = "EGD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "JOURNEYSPEED"
+        CODE = "JRS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDISTSPEED"
+        CODE = "DIS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "FARE"
+        CODE = "FAR"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMFZ"
+        CODE = "NFZ"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "NUMOPERATORCHANGES"
+        CODE = "NOC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDISTBYTSYS"
+        CODE = "IVTD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHDISTPERCBYTSYS"
+        CODE = "IVTP"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "1"
+        NUMDECPLACES = "4"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "INVEHTIMEBYTSYS"
+        CODE = "IVTT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCE"
+        CODE = "IPD"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "UTILITY"
+        CODE = "UTL"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "4"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "PATHLEGATTRIBUTE"
+        CODE = "PLA"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "-999999"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "2"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADAPTATIONTIME"
+        CODE = "ADT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EXTADAPTATIONTIME"
+        CODE = "XADT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "EQUIVALENTJOURNEYTIME"
+        CODE = "EJT"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "1"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DISCOMFORT"
+        CODE = "DISC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+    </PUTSKIMMATRIXSETTINGS>
+    <PRTSKIMMATRIXSETTINGS      USELONGLENGTH = "1"      USESECONDS = "0">
+      <USERDEFSKIM>
+        <LINCOMB          NETOBJECTTYPE = "LINK">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "1"
+            FIRSTATTRNAME = "ADDVAL1"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "CONNECTOR">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "TURN">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+        <LINCOMB          NETOBJECTTYPE = "MAINTURN">
+          <LINCOMBITEM
+            NO = "1"
+            FIRSTATTRCOEFF = "0"
+            FIRSTATTRNAME = "1.0"
+            OPERATION = "None"
+            SECONDATTRCOEFF = "0"
+            SECONDATTRNAME = "1.0"
+          />          
+        </LINCOMB>
+      </USERDEFSKIM>
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "T0"
+        CODE = "TT0"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "5"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TCUR"
+        CODE = "TTC"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "5"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "V0"
+        CODE = "VP0"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "VCUR"
+        CODE = "VPC"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "IMPEDANCE"
+        CODE = "IMP"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TRIPDIST"
+        CODE = "DIS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "1"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0.5"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "DIRECTDIST"
+        CODE = "DID"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL1"
+        CODE = "AD1"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL2"
+        CODE = "AD2"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL3"
+        CODE = "AD3"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "ADDVAL_TSYS"
+        CODE = "ADS"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "TOLL"
+        CODE = "TOL"
+        IGNOREDODVALUE = "999999"
+        NOPATHSFOUNDVALUE = "999999"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "0"
+      />      
+      <SINGLESKIMMATRIXSETTINGS
+        NAME = "USERDEF"
+        CODE = "UDS"
+        IGNOREDODVALUE = "0"
+        NOPATHSFOUNDVALUE = "0"
+        DIAGONALTYPE = "CONST"
+        DIAGONALVALUE = "0"
+        DIAGONALATTR = "1.0"
+        DIAGONALNUMZONES = "3"
+        DIAGONALFACTOR = "1"
+        MINVALUE = "0"
+        MAXVALUE = "999999"
+        NUMDECPLACES = "3"
+      />      
+    </PRTSKIMMATRIXSETTINGS>
+    <VDFUNCTIONSPARAMETERS>
+      <CONNECTORVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "3"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </CONNECTORVDFUNCTIONSPARAMETERS>
+      <LINKVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "BPR"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "0.5"
+          BPR_B = "3"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </LINKVDFUNCTIONSPARAMETERS>
+      <VDFUNCTIONS        USEVMIN = "0">
+        <ATTRIBUTE          NAME = "VDFUNCTIONNO_LINKTYPE">
+          <ATTRITEM            SUBATTR1 = "0"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "1"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "2"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "3"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "4"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "5"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "6"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "7"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "8"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "9"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "10"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "11"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "12"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "13"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "14"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "15"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "16"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "17"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "18"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "19"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "20"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "21"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "22"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "23"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "24"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "25"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "26"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "27"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "28"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "29"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "30"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "31"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "32"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "33"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "34"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "35"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "36"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "37"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "38"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "39"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "40"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "41"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "42"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "43"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "44"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "45"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "46"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "47"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "48"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "49"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "50"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "51"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "52"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "53"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "54"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "55"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "56"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "57"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "58"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "59"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "60"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "61"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "62"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "63"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "64"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "65"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "66"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "67"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "68"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "69"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "70"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "71"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "72"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "73"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "74"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "75"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "76"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "77"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "78"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "79"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "80"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "81"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "82"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "83"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "84"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "85"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "86"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "87"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "88"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "89"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "90"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "91"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "92"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "93"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "94"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "95"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "96"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "97"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "98"            VALUE = "1"          />          
+          <ATTRITEM            SUBATTR1 = "99"            VALUE = "1"          />          
+        </ATTRIBUTE>
+      </VDFUNCTIONS>
+    </VDFUNCTIONSPARAMETERS>
+    <IMPEDANCEFUNCTIONS      TSYSCODE = "P"      USEDETAILEDCALCULATION = "0">
+      <LINCOMB        NETOBJECTTYPE = "">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "1"
+          FIRSTATTRNAME = "TCUR_PRTSYS(P)"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "LINK">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "1"
+          FIRSTATTRNAME = "ADDVAL1"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "CONNECTOR">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "1"
+          FIRSTATTRNAME = "ADDVAL1"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "TURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "1"
+          FIRSTATTRNAME = "ADDVAL1"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+      <LINCOMB        NETOBJECTTYPE = "MAINTURN">
+        <LINCOMBITEM
+          NO = "1"
+          FIRSTATTRCOEFF = "1"
+          FIRSTATTRNAME = "ADDVAL1"
+          OPERATION = "None"
+          SECONDATTRCOEFF = "0"
+          SECONDATTRNAME = "1.0"
+        />        
+      </LINCOMB>
+    </IMPEDANCEFUNCTIONS>
+    <NODEIMPEDANCEPARA
+      HOURLYVOLUMESOURCE = "Volume-PrT with BasicVol"
+      HOURLYVOLUMEFACTOR = "1"
+      NODEIMPEDANCEMETHOD = "TURNTCUR_TURNVDFUNCTION"
+      USEMAXUNCONTROLLED = "1"
+      UNCONTROLLEDT0FACTOR = "20"
+      MAXUNCONTROLLED = "10min"
+      USEMAXICASIGNALIZED = "1"
+      MAXICASIGNALIZED = "10min"
+      ICAIDEALSATURATIONFLOWRATE = "1900"
+      ICAIDEALSATURATIONFLOWRATEICU1 = "1600"
+      ICAIDEALSATURATIONFLOWRATEICU2 = "1600"
+      ICAIDEALSATURATIONFLOWRATECCG = "1850"
+      ICAPCULENGTH = "6m"
+      ICAPEDESTRIANWALKINGSPEED = "1.2000000000000004m/s"
+      ICARIGHTTURNPEDESTRIANFACTOR = "Toronto"
+      USEMAXICATWOWAYSTOP = "1"
+      MAXICATWOWAYSTOP = "10min"
+      USEMAXICAROUNDABOUT = "1"
+      MAXICAROUNDABOUT = "10min"
+      USEMAXICAALLWAYSTOP = "1"
+      MAXICAALLWAYSTOP = "10min"
+      ICATIMEINTERVAL = "1h"
+      WRITEEXCELREPORT = "1"
+      QUEUELENGTHPERCENTILE = "90"
+      IGNOREUTURNS = "1"
+      ICAMETHODROUNDABOUT = "HCM 2010"
+      USELANELENGTH = "0"
+      ICAMETHODSIGNALIZED = "HCM 2000"
+      ICAMETHODTWOWAYSTOP = "HCM 2000"
+      ICAMETHODALLWAYSTOP = "HCM 2000">
+      <UNCONTROLLEDNODEVDFUNCTIONPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "BPR2"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "2"
+          BPR_B = "4"
+          BPR_BISREAL = "0"
+          BPR2_A = "2"
+          BPR2_B1 = "4"
+          BPR2_B2 = "0.8"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+      </UNCONTROLLEDNODEVDFUNCTIONPARAMETERS>
+      <NODEVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "TMODEL_NODES"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+        <NODEVDFUNCTIONS>
+          <ATTRIBUTE            NAME = "VDFUNCTIONNO_NODETYPE">
+            <ATTRITEM              SUBATTR1 = "0"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "1"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "2"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "3"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "4"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "5"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "6"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "7"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "8"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "9"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "10"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "11"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "12"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "13"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "14"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "15"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "16"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "17"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "18"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "19"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "20"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "21"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "22"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "23"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "24"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "25"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "26"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "27"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "28"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "29"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "30"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "31"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "32"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "33"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "34"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "35"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "36"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "37"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "38"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "39"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "40"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "41"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "42"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "43"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "44"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "45"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "46"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "47"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "48"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "49"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "50"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "51"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "52"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "53"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "54"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "55"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "56"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "57"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "58"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "59"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "60"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "61"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "62"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "63"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "64"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "65"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "66"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "67"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "68"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "69"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "70"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "71"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "72"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "73"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "74"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "75"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "76"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "77"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "78"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "79"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "80"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "81"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "82"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "83"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "84"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "85"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "86"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "87"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "88"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "89"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "90"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "91"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "92"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "93"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "94"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "95"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "96"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "97"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "98"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "99"              VALUE = "1"            />            
+          </ATTRIBUTE>
+        </NODEVDFUNCTIONS>
+      </NODEVDFUNCTIONSPARAMETERS>
+      <TURNVDFUNCTIONSPARAMETERS>
+        <VDFUNCTION
+          VDFUNCTIONNUMBER = "1"
+          VDFUNCTIONTYPE = "Constant"
+          BLOCKED = "0"
+          HARDBLOCKING = "0"
+          CAPACITYFACTOR = "1"
+          BPR_A = "1"
+          BPR_B = "2"
+          BPR_BISREAL = "0"
+          BPR2_A = "1"
+          BPR2_B1 = "2"
+          BPR2_B2 = "2"
+          BPR3_A = "1"
+          BPR3_B = "2"
+          BPR3_D = "0"
+          INRETS_A = "1"
+          CONICAL_A = "4"
+          CONICAL_MARGINAL_A = "4"
+          QUADRATIC_A = "1"
+          QUADRATIC_B = "1"
+          QUADRATIC_D = "1"
+          LOGISTIC_A = "1"
+          LOGISTIC_B = "1"
+          LOGISTIC_D = "1"
+          LOGISTIC_F = "1"
+          SIGMOIDAL_MMF_A = "1"
+          SIGMOIDAL_MMF_B = "1"
+          SIGMOIDAL_MMF_D = "1"
+          SIGMOIDAL_MMF_F = "1"
+          TMODEL_A1 = "0"
+          TMODEL_A2 = "0"
+          TMODEL_B1 = "2"
+          TMODEL_B2 = "2"
+          TMODEL_D1 = "1"
+          TMODEL_D2 = "1"
+          TMODEL_F1 = "0"
+          TMODEL_F2 = "0"
+          TMODEL_SATCRIT = "1"
+          AKCELIK_A = "1"
+          AKCELIK_B = "1"
+          AKCELIK_D = "1800"
+          LOHSE_A = "1"
+          LOHSE_B = "3"
+          LOHSE_SATCRIT = "1"
+          SCHILLER_A = "3"
+          SCHILLER_B = "1"
+          SCHILLER_D = "0.001"
+          SCHILLER_F = "10"
+          SCHILLER_SATCRIT = "1"
+          EXPONENTIAL_A = "1"
+          EXPONENTIAL_B = "1"
+          EXPONENTIAL_D = "1"
+          EXPONENTIAL_SATCRIT = "1"
+          AKCELIK2_A = "1"
+          AKCELIK2_B = "1"
+          AKCELIK2_D = "1"
+          USER_A1 = "1"
+          USER_B1 = "1"
+          USER_D1 = "1"
+          USER_F1 = "1"
+          USER_A2 = "1"
+          USER_B2 = "1"
+          USER_D2 = "1"
+          USER_F2 = "1"
+          USER_SATCRIT = "1"
+        />        
+        <TURNVDFUNCTIONS>
+          <ATTRIBUTE            NAME = "VDFUNCTIONNO_TURNTYPE">
+            <ATTRITEM              SUBATTR1 = "0"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "1"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "2"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "3"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "4"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "5"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "6"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "7"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "8"              VALUE = "1"            />            
+            <ATTRITEM              SUBATTR1 = "9"              VALUE = "1"            />            
+          </ATTRIBUTE>
+        </TURNVDFUNCTIONS>
+      </TURNVDFUNCTIONSPARAMETERS>
+    </NODEIMPEDANCEPARA>
+    <SIGNALCOORDINATIONPARA
+      DOANALYZE = "1"
+      USECOORDGRPSET = "0"
+      COORDGRPSET = ""
+      MAXVOLCAPRATIO = "80"
+      MINPLATOONINDEX = "0.4"
+      USEDSEGSET = "0"
+      DSEGSET = "C,SM"
+      PROGRESSIONATTRLINK = "TCUR_PRTSYS(C)"
+      PROGRESSIONFACLINK = "1"
+      PROGRESSIONATTRTURN = "TCUR_PRTSYS(C)"
+      PROGRESSIONFACTURN = "1"
+      PROGRESSIONATTRMAINTURN = "TCUR_PRTSYS(C)"
+      PROGRESSIONFACMAINTURN = "1"
+      PLATOONALPHA = "0.35"
+      PLATOONBETA = "0.8"
+      MAXCALCTIME = "2min"
+    />    
+    <SIGNALOPTIMIZATIONPARA
+      INTERGREENMODEFIXED = "0"
+      USECYCLETIMEFAMILY = "0"
+      NUMDECPLACES = "1"
+    />    
+    <PARKANDRIDEVDFUNCTIONSPARAMETERS    />    
+    <PRTGENERALPARA      MAXNOTCONVOBJECTSFORTRACE = "50"      APPLYCONNECTORSHARESTOEACHODPAIR = "0"    />    
+    <PRTVOLUMESPARA
+      USESIMPLECALCULATION = "0"
+      FIXBASISVOLUME = "1"
+      ADDVALIND = "1"
+      FACTORSIMPLECALCULATION = "1"
+      LINKFACTOR = "1"
+      CONNECTORFACTOR = "0"
+      TURNFACTOR = "0"
+      LINKATTR = "PRT_PRELOAD"
+      CONNECTORATTR = "ADDVAL1"
+      TURNATTR = "ADDVAL1"
+      PATHSSTORAGE = "StoragePathsRoutes"
+      MAINTURNFACTOR = "0"
+      MAINTURNATTR = "ADDVAL1"
+    />    
+    <PUTVOLUMESPARA
+      NUMDECPLACES = "3"
+      ROUNDDEMANDANDVOLUME = "1"
+      PATHSSTORAGE = "StoragePathsConnections"
+      VOLUMESTORAGE = "StorageVolumesVehJourneys"
+      FARESSTORAGE = "StorageFaresNone"
+      PJTSTORAGE = "1"
+      TRANSFERSSTORAGE = "StorageTransfersVehJourneys"
+      WALKSEARCHINSIDESTOP = "WALKSEARCHINSIDESTOP_FREE"
+      PUTWALKFROMORTOCONNECTORS = "WALKFROMORTOCONNECTORS_FREE"
+      MAXWALKTIME = "4h"
+      MAXPUTAUXTIME = "4h"
+      STOPPOINTVOLUMEMATRIXPATHSTORAGE = "0"
+      STOPPOINTVOLUMEMATRIXPATHLEGSTORAGE = "0">
+      <ATTRIBUTE        NAME = "MAXSHARINGTIME"      />      
+    </PUTVOLUMESPARA>
+    <PUTREVENUESPARA
+      REVENUEBASE = "Revenue from fare model"
+      REVPERTRIP = "2"
+      REVPERFAREPOINT = "0.2"
+      REVTOTAL = "0"
+      AMOUNTPERPARTROUTE = "0"
+      WEIGHTOFFAREPOINTS = "100"
+      TSYSSUPPLDISTR = "0"
+    />    
+    <BLOCKINGBACKPARA
+      USEBLOCKINGBACK = "0"
+      USELINKCAP = "1"
+      LINKCAPMODEL = "BBACKLINKCAPMODEL_LINKCAP"
+      USELINKASSIGNICAAPPROACHCAP = "0"
+      USENODECAP = "0"
+      USETURNCAP = "0"
+      TURNCAPMODEL = "BBACKTURNCAPMODEL_CAPPRT"
+      SCALINGFACTOR = "1"
+      AVERAGESPACEPERCARUNIT = "7m"
+      DURATIONPHASE1 = "1h"
+      NUMBEROFVOLUMESLICESPHASE1 = "10"
+      CALCULATIONVARIANT = "SEQUENTIALROUTEPROCESSING"
+    />    
+    <PATHSEQUENCESKIMMATRIXSETTINGS    />    
+    <ANALYSISTIMES
+      USEONPUTRESULTS = "1"
+      USEONPRTRESULTS = "0"
+      STARTDAYINDEX = "1"
+      ENDDAYINDEX = "1"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0000"
+      NAME = "00:00:00-01:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "00:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "01:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0100"
+      NAME = "01:00:00-02:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "01:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "02:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0200"
+      NAME = "02:00:00-03:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "02:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "03:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0300"
+      NAME = "03:00:00-04:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "03:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "04:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0400"
+      NAME = "04:00:00-05:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "04:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "05:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0500"
+      NAME = "05:00:00-06:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "05:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "06:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0600"
+      NAME = "06:00:00-07:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "06:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "07:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0700"
+      NAME = "07:00:00-08:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "07:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "08:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0800"
+      NAME = "08:00:00-09:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "08:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "09:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "0900"
+      NAME = "09:00:00-10:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "09:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "10:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1000"
+      NAME = "10:00:00-11:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "10:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "11:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1100"
+      NAME = "11:00:00-12:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "11:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "12:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1200"
+      NAME = "12:00:00-13:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "12:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "13:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1300"
+      NAME = "13:00:00-14:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "13:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "14:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1400"
+      NAME = "14:00:00-15:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "14:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "15:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1500"
+      NAME = "15:00:00-16:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "15:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "16:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1600"
+      NAME = "16:00:00-17:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "16:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "17:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1700"
+      NAME = "17:00:00-18:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "17:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "18:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1800"
+      NAME = "18:00:00-19:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "18:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "19:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "1900"
+      NAME = "19:00:00-20:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "19:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "20:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "2000"
+      NAME = "20:00:00-21:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "20:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "21:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "2100"
+      NAME = "21:00:00-22:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "21:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "22:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "2200"
+      NAME = "22:00:00-23:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "22:00:00"
+      ENDDAYINDEX = "1"
+      ENDTIME = "23:00:00"
+    />    
+    <ANALYSISTIMEINTERVAL
+      CODE = "2300"
+      NAME = "23:00:00-24:00:00"
+      ISAGGREGATE = "0"
+      DERIVEDFROM = ""
+      AGGRFUNCTION = "MEAN"
+      STARTDAYINDEX = "1"
+      STARTTIME = "23:00:00"
+      ENDDAYINDEX = "2"
+      ENDTIME = "00:00:00"
+    />    
+    <VOLUMESPARA      ORIGDSEG = "ÖV"      SAVEASDSEG = "ÖV"    />    
+    <VOLUMESPARA      ORIGDSEG = "ÖV-E"      SAVEASDSEG = "ÖV-E"    />    
+    <VOLUMESPARA      ORIGDSEG = "ÖV-mHVZ-4h"      SAVEASDSEG = "ÖV-mHVZ-4h"    />    
+    <VOLUMESPARA      ORIGDSEG = "ÖV-oL"      SAVEASDSEG = "ÖV-oL"    />    
+    <VOLUMESPARA      ORIGDSEG = "ÖV-oL-mHVZ"      SAVEASDSEG = "ÖV-oL-mHVZ"    />    
+    <VOLUMESPARA      ORIGDSEG = "ÖV-Z"      SAVEASDSEG = "ÖV-Z"    />    
+    <VOLUMEMATRIXPARA
+      CREATEFLOWBUNDLEFORMULAMATRICES = "1"
+      FLOWBUNDLEFORMULAMATRIXCODE = "FlowBundle"
+      CREATEASSIGNEDVOLUMEFORMULAMATRICES = "0"
+      ASSIGNEDVOLUMEFORMULAMATRIXCODE = "AssignedVol"
+    />    
+  </FUNCTIONS>
+  <OPERATIONS>
+    <OPERATION
+      NO = "1"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "VISUM17_PuTAssignment_CapacityRestrictionNo_LineBlockingInterliningYes_v01.00.xml"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:45:59"
+      ENDTIME = "2018-7-3 13:45:59"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "2"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "assignment Public Transport(=PuT) for the morning peak hour and for the day"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:45:59"
+      ENDTIME = "2018-7-3 13:45:59"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "3"
+      CODE = ""
+      OPERATIONTYPE = "InitAssignment"
+      ACTIVE = "1"
+      COMMENT = "init"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:45:59"
+      ENDTIME = "2018-7-3 13:45:59"
+      DURATION = "0min"
+      MESSAGES = "Die Formelmatrix 183 Utility_PuT_per_Pers wird aufgrund eines Fehlers Nullwertig: Beim Berechnen der Formel &quot;Matrix([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;)*Matrix([CODE]=&quot;ÖV (mL, mHVZ)&quot;)*Matrix([CODE]=&quot;Ohne BV&quot;)/([PUTSTAT\PTRIPSLINKEDWRIDE_DSEG(ÖV-MHVZ-4H)]/4)&quot; ist ein Fehler aufgetreten: &quot;Es gibt keine passende Matrix zum Matrixbezug &quot;Matrix(([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;) &amp; [ObjectTypeRef] = 2)&quot;.&quot;&#xA;"
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "1"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <ASSIGNMENTINITPARA        INITPUT = "1"        INITPRT = "0"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "4"
+      CODE = ""
+      OPERATIONTYPE = "InitAllFilters"
+      ACTIVE = "1"
+      COMMENT = "init"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:45:59"
+      ENDTIME = "2018-7-3 13:45:59"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0"
+    />    
+    <OPERATION
+      NO = "5"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "set vehicle combination for line "
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:45:59"
+      ENDTIME = "2018-7-3 13:45:59"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = "Es wurde kein Objekt geändert."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "LINE"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "VEHCOMBNO"
+        ONLYACTIVE = "0"
+        FORMULA = "2"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "6"
+      CODE = ""
+      OPERATIONTYPE = "EditAttribute"
+      ACTIVE = "1"
+      COMMENT = "set vehicle combination for vehicle journey section"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:0"
+      ENDTIME = "2018-7-3 13:46:0"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = "Es wurde kein Objekt geändert."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <ATTRIBUTEFORMULAPARA
+        NETOBJECTTYPE = "VEHJOURNEYSECTION"
+        INCLUDESUBCATEGORIES = "0"
+        RESULTATTRNAME = "VEHCOMBNO"
+        ONLYACTIVE = "0"
+        FORMULA = "2"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "7"
+      CODE = ""
+      OPERATIONTYPE = "PuTAssignment"
+      ACTIVE = "1"
+      COMMENT = "calculate skim matrix with shortest path according to the perseived journey time (no assignment required)"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:0"
+      ENDTIME = "2018-7-3 13:46:0"
+      DURATION = "0min"
+      MESSAGES = "Die Formelmatrix 183 Utility_PuT_per_Pers wird aufgrund eines Fehlers Nullwertig: Beim Berechnen der Formel &quot;Matrix([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;)*Matrix([CODE]=&quot;ÖV (mL, mHVZ)&quot;)*Matrix([CODE]=&quot;Ohne BV&quot;)/([PUTSTAT\PTRIPSLINKEDWRIDE_DSEG(ÖV-MHVZ-4H)]/4)&quot; ist ein Fehler aufgetreten: &quot;Es gibt keine passende Matrix zum Matrixbezug &quot;Matrix(([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;) &amp; [ObjectTypeRef] = 2)&quot;.&quot;&#xA;Es wurden keine Wege gefunden und deshalb auch keine Kenngrößenmatrizen ermittelt.&#xA;"
+      RESULTMESSAGE = "Die Umlegung wurde erfolgreich beendet. Es wurden 161 Quellbezirke umgelegt."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "2"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <PUTASSIGNMENTPARABASE        PUTASSIGNMENTVARIANT = "Timetable-based"        DSEGSET = "ÖV,ÖV-mHVZ-4h">
+        <TTBASEDASSIGNMENTPARAMETERS>
+          <TIMETABLEBASEDBASEPARA
+            CALCULATEASSIGNMENT = "0"
+            CALCULATESKIMMATRICES = "1"
+            MPAISACTIVE = "0"
+            SAVEDETAILLEDTRACEFILE = "0"
+            CONNEXPORT = "0"
+            FROMORIGZONENO = ""
+            TOORIGZONENO = ""
+            SELECTODRELATIONTYPE = "All"
+            TIMEINTERVALSTARTTIME = "05:00:00"
+            TIMEINTERVALSTARTDAYINDEX = "1"
+            TIMEINTERVALENDTIME = "22:00:00"
+            TIMEINTERVALENDDAYINDEX = "1"
+            POSTASSIGNPERIOD = "3h"
+            PREASSIGNPERIOD = "0h"
+            CONNECTIONSOURCETYPE = "ConnCalculated"
+            CONNECTIONSFROMDSEG = ""
+            CONNIMPORTFILENAME = ""
+            USEMAXINTERVALSIZE = "1"
+            MAXINTERVALSIZE = "1min"
+            IMPORTFARES = "0"
+            USECAPACITYCONSTRAINTS = "0"
+          />          
+          <TIMETABLEBASEDSEARCHPARA
+            USEFILTER = "1"
+            MAXNUMTRANSFERS = "5"
+            DIJKSTRASEARCHUSEALLDEPS = "1"
+            DIJKSTRASEARCHMAXNUMDEPS = "1440"
+            DIJKSTRASEARCHBACKWARDCORRECTION = "1"
+            DIJKSTRASEARCHMULTISEARCH = "0"
+            DIJKSTRASEARCHIMPJTFACTOR = "1"
+            DIJKSTRASEARCHIMPNTFACTOR = "10"
+            USEBRANCHANDBOUND = "1"
+            BBSEARCHIMPINVEHTIMEFACTOR = "1"
+            BBSEARCHIMPINVEHTIMEWEIGHTATTR = "1.0"
+            BBSEARCHIMPPUTAUXTIMEFACTOR = "1"
+            BBSEARCHIMPPUTAUXTIMEWEIGHTATTR = "1.0"
+            BBSEARCHIMPACCESSTIMEFACTOR = "1"
+            BBSEARCHIMPEGRESSTIMEFACTOR = "1"
+            BBSEARCHIMPWALKTIMEFACTOR = "1"
+            BBSEARCHIMPTRANSFERWAITTIMEFACTOR = "1"
+            BBSEARCHIMPNUMTRANSFERSFACTOR = "5min"
+            BBSEARCHIMPTSYSFACTOR = "0"
+            BBSEARCHWALKIMPDIST = "0"
+            BBSEARCHWALKIMPFIX = "0"
+            BBSEARCHWALKUSEIMPFIXFOREACHLEG = "0"
+            BBSEARCHIMPJOURNEYFACTOR = "0"
+            BBSEARCHJOURNEYBOARDPENALTYATTR = "VEHJOURNEY\ADDVAL1"
+            BBSEARCHJOURNEYRIDEDISCOMFORTAGGREGATETYPE = "SUMMINMAXAVGWHG_AVG"
+            BBSEARCHJOURNEYRIDEDISCOMFORTATTR = "VEHJOURNEY\ADDVAL1"
+            BBSEARCHJOURNEYRIDEDISCOMFORTWEIGHTINGATTR = "TIMEPROFILEITEM\POSTRUNTIME"
+            BBSEARCHVOLDEPIMPDSEG = ""
+            BBSEARCHMAXADDRELIMP = "1.5"
+            BBSEARCHMAXADDABSIMP = "10"
+            BBSEARCHMAXADDRELJT = "1.5"
+            BBSEARCHMAXADDABSJT = "10min"
+            BBSEARCHMAXADDNT = "2"
+            BBSEARCHDOMSEARCHIMPFACTOR = "1"
+            BBSEARCHDOMSEARCHIMPDELTA = "0"
+            BBSEARCHDEACTIVATEDOMINANCEOFDIRECTCONNECTIONS = "0"
+            BBSEARCHALLOWDOMINANCEFOREQUIVALENTCONNECTIONS = "1"
+            BBSEARCHPRIOFOREQUIVALENTCONNECTIONSATTR = ""
+            BBSEARCHUSEADDITIONALWAITTIMEINSEARCHIMPFORDOMINANCE = "1"
+            BBSEARCHIMPSHARINGTIMEFACTOR = "1"
+            BBSEARCHIMPSHARINGTIMEWEIGHTATTR = "1.0"
+            BBSEARCHIMPSHARINGRENTALPROCESSTIMEFACTOR = "1"
+            BBSEARCHIMPSHARINGRETURNPROCESSTIMEFACTOR = "1"
+            BBSEARCHIMPSHARINGSTAYTIMEFACTOR = "0"
+            BBSEARCHIMPSHARINGSTAYTIMEWEIGHTATTR = "1.0">
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPDIST">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPFAREPOINT">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPADDVAL_TSYS">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPFIX">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSUSEIMPFIXFOREACHLEG">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+          </TIMETABLEBASEDSEARCHPARA>
+          <TIMETABLEBASEDPRESELECTIONPARA
+            DELETEFOUNDCONNECTIONS = "DeleteAllConnectionsWithoutPuT"
+            DELETECONNSOUTSIDEASSIGNMENTPERIOD = "1"
+            MINSEARCHIMPFACTOR = "1.5"
+            MINSEARCHIMPABS = "10s"
+            MINJOURNEYTIMEFACTOR = "1.5"
+            MINJOURNEYTIMEABS = "10min"
+            USEMEANPJT = "0"
+            MEANPJTFACTOR = "1.5"
+            MEANPJTABS = "0h"
+            MINNUMBEROFTRANSFERS = "1"
+            DSEGFORPJTRULE = ""
+            DELETECONNSWITHDEPBEFOREASSPERIODFORDEPBASEDDSEG = "0"
+            DELETECONNSWITHARRAFTERASSPERIODFORARRBASEDDSEG = "0"
+          />          
+          <TIMETABLEBASEDDSEGPARA
+            SAMEIMPPARAMETERS = "1"
+            SAMECHOICEPARAMETERS = "1"
+            DSEGSETFORSKIMMATRICES = ""
+            SAMEVOLDEPIMPPARAMETERS = "1"
+            SAMEVOLDEPIMPSHARINGPARAMETERS = "1"
+          />          
+          <PUTSKIMMATRIXPARA
+            FILENAME = "M01_ÖV"
+            FORMAT = "Binary"
+            SEPARATOR = "Blank"
+            USEVISEMMODE = "1"
+            VISEMMODE = "3"
+            CONFIRMOVERWRITE = "0"
+            FUNCTION = "AggregatePJTMinimal"
+            VOLUMEWEIGHTED = "1"
+            QUANTILE = "50"
+            LOWIMPCONNSHARE = "50"
+            SELECTODRELATIONTYPE = "All"
+            CALCULATEANALYSISTIMEINTERVALSKIMS = "0">
+            <SINGLESKIMMATRIXPARA
+              NAME = "ADAPTATIONTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "INVEHTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "JOURNEYDIST"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "JOURNEYTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "NUMTRANSFERS"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "PERCEIVEDJOURNEYTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "TRANSFERWAITTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "UTILITY"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "WALKTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+          </PUTSKIMMATRIXPARA>
+          <TIMETABLEBASEDIMPEDANCEPARA
+            DSEGCODE = ""
+            PJTISACTIVE = "0"
+            PJTLAMBDA = "1"
+            PJTVAL = "1"
+            FAREISACTIVE = "0"
+            FARELAMBDA = "1"
+            FAREVAL = "0"
+            DELTATEARLYISACTIVE = "0"
+            DELTATEARLYLAMBDA = "1"
+            DELTATEARLYVAL = "1"
+            DELTATLATEISACTIVE = "0"
+            DELTATLATELAMBDA = "1"
+            DELTATLATEVAL = "1"
+            VOLDEPIMPISACTIVE = "0"
+            VOLDEPIMPLAMBDA = "1"
+            VOLDEPIMPVAL = "1"
+            CONSIDERCONNSWITHDELTATGREATERZERO = "0"
+            INVEHTIMEISACTIVE = "0"
+            INVEHTIMELAMBDA = "1"
+            INVEHTIMEVAL = "1"
+            INVEHTIMEWEIGHTATTR = ""
+            PUTAUXTIMEWEIGHTATTR = ""
+            PUTAUXTIMECOEFFISACTIVE = "0"
+            PUTAUXTIMECOEFFLAMBDA = "1"
+            PUTAUXTIMECOEFFVAL = "0"
+            ACCESSTIMEISACTIVE = "0"
+            ACCESSTIMELAMBDA = "1"
+            ACCESSTIMEVAL = "0"
+            EGRESSTIMEISACTIVE = "0"
+            EGRESSTIMELAMBDA = "1"
+            EGRESSTIMEVAL = "0"
+            WALKTIMEISACTIVE = "0"
+            WALKTIMELAMBDA = "1"
+            WALKTIMEVAL = "1"
+            ORIGINWAITTIMEISACTIVE = "0"
+            ORIGINWAITTIMELAMBDA = "1"
+            ORIGINWAITTIMEVAL = "0"
+            EXTOWTFACTOR = "0.5"
+            EXTOWTEXPONENT = "0.5"
+            EXTOWTMAXOWT = "20min"
+            TRANSFERWAITTIMEISACTIVE = "0"
+            TRANSFERWAITTIMELAMBDA = "1"
+            TRANSFERWAITTIMEVAL = "1"
+            NUMTRANSFERSISACTIVE = "0"
+            NUMTRANSFERSLAMBDA = "1"
+            NUMTRANSFERSVAL = "300"
+            NUMTRANSFERSBYJTFACTOR1 = "1"
+            NUMTRANSFERSBYJTFACTOR2 = "0"
+            NUMOPCHANGESISACTIVE = "0"
+            NUMOPCHANGESLAMBDA = "1"
+            NUMOPCHANGESVAL = "0"
+            OPERATORATTR = "NO"
+            EXTISACTIVE = "0"
+            EXTLAMBDA = "1"
+            EXTVAL = "0"
+            EXTIMPCALCACCESSEGRESSWALKPENALTY = "0"
+            EXTIMPACCESSEGRESSWALKFACTOR1 = "0.15"
+            EXTIMPACCESSEGRESSWALKFACTOR2 = "0.9"
+            EXTIMPCALCINVEHTIMEPENALTY = "0"
+            EXTIMPINVEHTIMEFACTOR1 = "0.1"
+            EXTIMPINVEHTIMEWEIGHTATTR1 = "TIMEPROFILEITEM\TIMEPROFILE\LINEROUTE\ADDVAL1"
+            EXTIMPINVEHTIMEFACTOR2 = "0.01"
+            EXTIMPINVEHTIMEWEIGHTATTR2 = "TIMEPROFILEITEM\TIMEPROFILE\LINEROUTE\ADDVAL1"
+            EXTIMPVJIATTRWEIGHTED = "1"
+            EXTIMPCALCTRANSFERPENALTY = "0"
+            EXTIMPCALCBOARDALIGHTTRANSFERPENALTY = "0"
+            EXTIMPBOARDPENALTYFACTOR = "1"
+            EXTIMPBOARDPENALTYATTR = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPALIGHTPENALTYFACTOR = "1"
+            EXTIMPALIGHTPENALTYATTR = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPTRANSFERPENALTYFACTOR1 = "1"
+            EXTIMPTRANSFERPENALTYFACTOR2 = "1"
+            EXTIMPTRANSFERPENALTYATTR1 = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPTRANSFERPENALTYATTR2 = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPCALCINTERMEDIATESTOPPENALTY = "0"
+            EXTIMPINTERMEDIATESTOPPENALTY = "0h"
+            EXTTWTMAXTWT = "24h"
+            EXTTWTUSEEXTTWT = "0"
+            EXTTWTEXPONENT = "2"
+            EXTTWTCOEFF = "0"
+            EXTTWTDELTA = "5min"
+            EXTTWTUSECONSTTIMEFORPUTAUX = "0"
+            EXTTWTCONSTPUTAUXTIME = "5min"
+            EXTTWTUSEEXTTWTWITHSPECIALWALKTIMES = "0"
+            SHARINGTIMEWEIGHTATTR = ""
+            SHARINGTIMECOEFFISACTIVE = "0"
+            SHARINGTIMECOEFFLAMBDA = "1"
+            SHARINGTIMECOEFFVAL = "1"
+            SHARINGRENTALPROCESSTIMECOEFFISACTIVE = "0"
+            SHARINGRENTALPROCESSTIMECOEFFLAMBDA = "1"
+            SHARINGRENTALPROCESSTIMECOEFFVAL = "1"
+            SHARINGRETURNPROCESSTIMECOEFFISACTIVE = "0"
+            SHARINGRETURNPROCESSTIMECOEFFLAMBDA = "1"
+            SHARINGRETURNPROCESSTIMECOEFFVAL = "1"
+          />          
+          <TIMETABLEBASEDCHOICEPARA
+            DSEGCODE = ""
+            CHOICEMODEL = "Logit"
+            USEINDEPENDENCE = "1"
+            INDEPMAXDELTA = "1h"
+            INDEPHIGHERQUALITYCOEFF = "0.3"
+            INDEPLOWERQUALITYCOEFF = "0.6"
+            QUALITYWEIGHT = "1"
+            KIRCHHOFFEXP = "4"
+            LOGITEXP = "0.1"
+            LOHSEEXP = "4"
+            BOXCOXEXP = "1"
+            BOXCOXPARA = "0.5"
+          />          
+          <TIMETABLEBASEDCONNECTIONEXPORTPARA
+            CONNEXPORTFILENAME = ""
+            CONNEXPORTMAXFILESIZE = "1000"
+            CONNEXPORTWITHVOL = "0"
+            CONNEXPORTONALLRELATIONS = "0"
+            CONNEXPORTWITHFAREPOINTS = "0"
+            CONNEXPORTFARESTYPE = "StorageFaresNone"
+            DSEGFORFAREEXPORT = ""
+            CONNEXPORTWITHUSERDEFINEDATTRIBUTES = "1"
+            CONNEXPORTWITHALLDSEGFARES = "1"
+          />          
+          <TIMETABLEBASEDITERATIONPARA
+            USESECONDSEARCH = "1"
+            NUMASSIGNEDDEMANDSLICESAFTERSEARCH = "1"
+            CONVERGENCEMAXITERATIONS = "5"
+            CONVERGENCEVOLUMEDIFFERENCEPARAA = "0.05"
+            CONVERGENCEVOLUMEDIFFERENCEPARAB = "5"
+            SMOOTHINGPARAA = "0.5"
+            SMOOTHINGMODEL = "VolumeExponential"
+            USECONVERGENCETRACE = "0"
+            CONVERGENCETRACEFILE = ""
+          />          
+          <TIMETABLEBASEDVEHICLEJOURNEYVOLDEPIMPEDANCEPARA
+            VOLDEPIMPEDANCEPARAA = "-4.9"
+            VOLDEPIMPEDANCEPARAB = "9.8"
+            VOLDEPIMPEDANCEPARAC = "2"
+            VOLDEPIMPEDANCEPARAL1 = "1"
+            VOLDEPIMPEDANCEPARAL2 = "2"
+            VOLDEPIMPEDANCEMODEL = "DB"
+            DSEGCODE = ""
+            MAXPASSENGERDENSITY = "4/m2"
+            VOLDEPIMPEDANCESITTINGPARAA = "0"
+            VOLDEPIMPEDANCESITTINGPARAB = "0.08"
+            VOLDEPIMPEDANCESTANDINGPARAA = "0.25"
+            VOLDEPIMPEDANCESTANDINGPARAB = "0.09"
+          />          
+          <TIMETABLEBASEDSHARINGVOLDEPIMPEDANCEPARA
+            DSEGCODE = ""
+            AVAILABLEVEHICLESATSTATIONIMPEDANCEPARAA = "30min"
+            AVAILABLEVEHICLESATSTATIONIMPEDANCEPARAB = "1"
+            AVAILABLEPARKINGSPACESIMPEDANCEPARAA = "30min"
+            AVAILABLEPARKINGSPACESIMPEDANCEPARAB = "1"
+            AVAILABLEVEHICLESATZONEIMPEDANCEPARAA = "30min"
+            AVAILABLEVEHICLESATZONEIMPEDANCEPARAB = "1"
+          />          
+          <TIMETABLEBASEDVEHICLEJOURNEYCAPACITYCONSTRAINTPARA            VEHJOURNEYITEMSEATCAPACITY = "SUM:VEHJOURNEYSECTIONS\VEHCOMB\SEATCAP"            VEHJOURNEYITEMTOTALCAPACITY = "SUM:VEHJOURNEYSECTIONS\VEHCOMB\TOTALCAP"          />          
+          <TIMETABLEBASEDSHARINGPARA            UPDATESHARINGTRAVELTIMESBEFOREASSIGNMENT = "1"            IMPEDANCETIMEINTERVALDURATION = "1h">
+            <ATTRIBUTE              NAME = "SHARINGTRAVELTIMEPRTSYS"            />            
+            <ATTRIBUTE              NAME = "INITIALVOLUMECAPACITYRATIO"            />            
+          </TIMETABLEBASEDSHARINGPARA>
+        </TTBASEDASSIGNMENTPARAMETERS>
+      </PUTASSIGNMENTPARABASE>
+    </OPERATION>
+    <OPERATION
+      NO = "8"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "1"
+      COMMENT = "save resulting matrix perceived journey time(=PJT) using the mode PuT for the morning peak hour"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:0"
+      ENDTIME = "2018-7-3 13:46:0"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <MATRIXFORMULAPARA        FORMULA = "Matrix(131):=&#xA;Matrix([CODE]=&quot;PJT&quot; &amp; [DSEGCODE]=&quot;ÖV&quot;)"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "9"
+      CODE = ""
+      OPERATIONTYPE = "CombinationOfMatrices"
+      ACTIVE = "1"
+      COMMENT = "save resulting matrix utility(=UTL) using the mode PuT for the morning peak hour"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:0"
+      ENDTIME = "2018-7-3 13:46:0"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <MATRIXFORMULAPARA        FORMULA = "Matrix(132):=&#xA;Matrix([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV&quot;)"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "10"
+      CODE = ""
+      OPERATIONTYPE = "PuTAssignment"
+      ACTIVE = "1"
+      COMMENT = "calculate multipath assignment using the mode PuT with Supply(=Lines), capacity restrictions are NOT considered"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:0"
+      ENDTIME = "2018-7-3 13:46:1"
+      DURATION = "0min"
+      MESSAGES = "Die Formelmatrix 183 Utility_PuT_per_Pers wird aufgrund eines Fehlers Nullwertig: Beim Berechnen der Formel &quot;Matrix([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;)*Matrix([CODE]=&quot;ÖV (mL, mHVZ)&quot;)*Matrix([CODE]=&quot;Ohne BV&quot;)/([PUTSTAT\PTRIPSLINKEDWRIDE_DSEG(ÖV-MHVZ-4H)]/4)&quot; ist ein Fehler aufgetreten: &quot;Es gibt keine passende Matrix zum Matrixbezug &quot;Matrix(([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;) &amp; [ObjectTypeRef] = 2)&quot;.&quot;&#xA;Die Formelmatrix 183 Utility_PuT_per_Pers wird aufgrund eines Fehlers Nullwertig: Beim Berechnen der Formel &quot;Matrix([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;)*Matrix([CODE]=&quot;ÖV (mL, mHVZ)&quot;)*Matrix([CODE]=&quot;Ohne BV&quot;)/([PUTSTAT\PTRIPSLINKEDWRIDE_DSEG(ÖV-MHVZ-4H)]/4)&quot; ist ein Fehler aufgetreten: &quot;Es gibt keine passende Matrix zum Matrixbezug &quot;Matrix(([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;) &amp; [ObjectTypeRef] = 2)&quot;.&quot;&#xA;Die Formelmatrix 183 Utility_PuT_per_Pers wird aufgrund eines Fehlers Nullwertig: Beim Berechnen der Formel &quot;Matrix([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;)*Matrix([CODE]=&quot;ÖV (mL, mHVZ)&quot;)*Matrix([CODE]=&quot;Ohne BV&quot;)/([PUTSTAT\PTRIPSLINKEDWRIDE_DSEG(ÖV-MHVZ-4H)]/4)&quot; ist ein Fehler aufgetreten: &quot;Es gibt keine passende Matrix zum Matrixbezug &quot;Matrix(([CODE]=&quot;UTL&quot; &amp; [DSEGCODE]=&quot;ÖV-mHVZ-4h&quot;) &amp; [ObjectTypeRef] = 2)&quot;.&quot;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 0.404&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.223&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 0.028&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.007&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 102. Nicht umgelegte Nachfrage für NSeg ÖV: 0.026&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 102. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.007&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 103. Nicht umgelegte Nachfrage für NSeg ÖV: 0.015&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 103. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.004&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 104. Nicht umgelegte Nachfrage für NSeg ÖV: 0.004&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 104. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.001&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 105. Nicht umgelegte Nachfrage für NSeg ÖV: 0.017&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 105. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.004&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 106. Nicht umgelegte Nachfrage für NSeg ÖV: 0.006&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 106. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.002&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 107. Nicht umgelegte Nachfrage für NSeg ÖV: 0.013&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 107. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 108. Nicht umgelegte Nachfrage für NSeg ÖV: 0.015&#xA;&#xA;Kein Weg gefunden auf Beziehung 1010 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 17.383&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 108. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.004&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 109. Nicht umgelegte Nachfrage für NSeg ÖV: 0.012&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 109. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 110. Nicht umgelegte Nachfrage für NSeg ÖV: 0.018&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 110. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.008&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 201. Nicht umgelegte Nachfrage für NSeg ÖV: 0.054&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 201. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.025&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 202. Nicht umgelegte Nachfrage für NSeg ÖV: 0.033&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 202. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.009&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 203. Nicht umgelegte Nachfrage für NSeg ÖV: 0.025&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 203. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.007&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 204. Nicht umgelegte Nachfrage für NSeg ÖV: 0.019&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 204. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.005&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 205. Nicht umgelegte Nachfrage für NSeg ÖV: 0.028&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 205. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.013&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 206. Nicht umgelegte Nachfrage für NSeg ÖV: 0.009&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 206. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.002&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 207. Nicht umgelegte Nachfrage für NSeg ÖV: 0.009&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 207. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.002&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 208. Nicht umgelegte Nachfrage für NSeg ÖV: 0.005&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 208. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.001&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 209. Nicht umgelegte Nachfrage für NSeg ÖV: 0.013&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 209. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 210. Nicht umgelegte Nachfrage für NSeg ÖV: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 210. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 301. Nicht umgelegte Nachfrage für NSeg ÖV: 0.011&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 301. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.006&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 302. Nicht umgelegte Nachfrage für NSeg ÖV: 0.019&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 302. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.005&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 303. Nicht umgelegte Nachfrage für NSeg ÖV: 0.039&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 303. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.019&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 304. Nicht umgelegte Nachfrage für NSeg ÖV: 0.068&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 304. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.06&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 305. Nicht umgelegte Nachfrage für NSeg ÖV: 0.008&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 305. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.002&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 306. Nicht umgelegte Nachfrage für NSeg ÖV: 0.01&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 306. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 307. Nicht umgelegte Nachfrage für NSeg ÖV: 0.013&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 307. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.004&#xA;&#xA;Kein Weg gefunden auf Beziehung 210 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 2.258&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 308. Nicht umgelegte Nachfrage für NSeg ÖV: 0.003&#xA;&#xA;Kein Weg gefunden auf Beziehung 210 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 1.043&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 308. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.001&#xA;&#xA;Kein Weg gefunden auf Beziehung 1010 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 10.038&#xA;&#xA;Kein Weg gefunden auf Beziehung 1210 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 0.757&#xA;&#xA;Kein Weg gefunden auf Beziehung 1210 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.448&#xA;&#xA;Kein Weg gefunden auf Beziehung 305 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 9.084&#xA;&#xA;Kein Weg gefunden auf Beziehung 305 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 5.432&#xA;&#xA;Kein Weg gefunden auf Beziehung 610 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 15.55&#xA;&#xA;Kein Weg gefunden auf Beziehung 610 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 9.156&#xA;&#xA;Kein Weg gefunden auf Beziehung 1 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 31.387&#xA;&#xA;Kein Weg gefunden auf Beziehung 1 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 4.993&#xA;&#xA;Kein Weg gefunden auf Beziehung 710 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 61.283&#xA;&#xA;Kein Weg gefunden auf Beziehung 710 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 37.594&#xA;&#xA;Kein Weg gefunden auf Beziehung 810 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 17.635&#xA;&#xA;Kein Weg gefunden auf Beziehung 810 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 7.814&#xA;&#xA;Kein Weg gefunden auf Beziehung 110 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV: 19.405&#xA;&#xA;Kein Weg gefunden auf Beziehung 110 -&gt; 1. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 11.214&#xA;&#xA;Kein Weg gefunden auf Beziehung 305 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 0.31&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 309. Nicht umgelegte Nachfrage für NSeg ÖV: 0.018&#xA;&#xA;Kein Weg gefunden auf Beziehung 1210 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 0.036&#xA;&#xA;Kein Weg gefunden auf Beziehung 210 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 0.206&#xA;&#xA;Kein Weg gefunden auf Beziehung 110 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 1.502&#xA;&#xA;Kein Weg gefunden auf Beziehung 1010 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 0.638&#xA;&#xA;Kein Weg gefunden auf Beziehung 810 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 1.618&#xA;&#xA;Kein Weg gefunden auf Beziehung 710 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 1.252&#xA;&#xA;Kein Weg gefunden auf Beziehung 610 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV: 0.369&#xA;&#xA;Kein Weg gefunden auf Beziehung 1 -&gt; 102. Nicht umgelegte Nachfrage für NSeg ÖV: 31.217&#xA;&#xA;Kein Weg gefunden auf Beziehung 410 -&gt; 309. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.009&#xA;&#xA;Kein Weg gefunden auf Beziehung 710 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.426&#xA;&#xA;Kein Weg gefunden auf Beziehung 810 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.099&#xA;&#xA;Kein Weg gefunden auf Beziehung 210 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.013&#xA;&#xA;Kein Weg gefunden auf Beziehung 1 -&gt; 102. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 4.911&#xA;&#xA;Kein Weg gefunden auf Beziehung 110 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.266&#xA;&#xA;Kein Weg gefunden auf Beziehung 1010 -&gt; 101. Nicht umgelegte Nachfrage für NSeg ÖV-mHVZ-4h: 0.114&#xA;&#xA;Kein Weg&#xA;In der Meldungs-Datei sind weitere Meldungen aufgeführt."
+      RESULTMESSAGE = "Die Umlegung wurde erfolgreich beendet. Es wurden 161 Quellbezirke umgelegt."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "4"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "208">
+      <PUTASSIGNMENTPARABASE        PUTASSIGNMENTVARIANT = "Timetable-based"        DSEGSET = "ÖV,ÖV-mHVZ-4h">
+        <TTBASEDASSIGNMENTPARAMETERS>
+          <TIMETABLEBASEDBASEPARA
+            CALCULATEASSIGNMENT = "1"
+            CALCULATESKIMMATRICES = "1"
+            MPAISACTIVE = "0"
+            SAVEDETAILLEDTRACEFILE = "0"
+            CONNEXPORT = "0"
+            FROMORIGZONENO = ""
+            TOORIGZONENO = ""
+            SELECTODRELATIONTYPE = "All"
+            TIMEINTERVALSTARTTIME = "05:00:00"
+            TIMEINTERVALSTARTDAYINDEX = "1"
+            TIMEINTERVALENDTIME = "22:00:00"
+            TIMEINTERVALENDDAYINDEX = "1"
+            POSTASSIGNPERIOD = "3h"
+            PREASSIGNPERIOD = "0h"
+            CONNECTIONSOURCETYPE = "ConnCalculated"
+            CONNECTIONSFROMDSEG = "ÖV"
+            CONNIMPORTFILENAME = ""
+            USEMAXINTERVALSIZE = "1"
+            MAXINTERVALSIZE = "1min"
+            IMPORTFARES = "0"
+            USECAPACITYCONSTRAINTS = "0"
+          />          
+          <TIMETABLEBASEDSEARCHPARA
+            USEFILTER = "1"
+            MAXNUMTRANSFERS = "5"
+            DIJKSTRASEARCHUSEALLDEPS = "1"
+            DIJKSTRASEARCHMAXNUMDEPS = "1440"
+            DIJKSTRASEARCHBACKWARDCORRECTION = "1"
+            DIJKSTRASEARCHMULTISEARCH = "0"
+            DIJKSTRASEARCHIMPJTFACTOR = "1"
+            DIJKSTRASEARCHIMPNTFACTOR = "10"
+            USEBRANCHANDBOUND = "1"
+            BBSEARCHIMPINVEHTIMEFACTOR = "1"
+            BBSEARCHIMPINVEHTIMEWEIGHTATTR = "1.0"
+            BBSEARCHIMPPUTAUXTIMEFACTOR = "1"
+            BBSEARCHIMPPUTAUXTIMEWEIGHTATTR = "1.0"
+            BBSEARCHIMPACCESSTIMEFACTOR = "1"
+            BBSEARCHIMPEGRESSTIMEFACTOR = "1"
+            BBSEARCHIMPWALKTIMEFACTOR = "1"
+            BBSEARCHIMPTRANSFERWAITTIMEFACTOR = "1"
+            BBSEARCHIMPNUMTRANSFERSFACTOR = "5min"
+            BBSEARCHIMPTSYSFACTOR = "0"
+            BBSEARCHWALKIMPDIST = "0"
+            BBSEARCHWALKIMPFIX = "0"
+            BBSEARCHWALKUSEIMPFIXFOREACHLEG = "0"
+            BBSEARCHIMPJOURNEYFACTOR = "0"
+            BBSEARCHJOURNEYBOARDPENALTYATTR = "VEHJOURNEY\ADDVAL1"
+            BBSEARCHJOURNEYRIDEDISCOMFORTAGGREGATETYPE = "SUMMINMAXAVGWHG_AVG"
+            BBSEARCHJOURNEYRIDEDISCOMFORTATTR = "VEHJOURNEY\ADDVAL1"
+            BBSEARCHJOURNEYRIDEDISCOMFORTWEIGHTINGATTR = "TIMEPROFILEITEM\POSTRUNTIME"
+            BBSEARCHVOLDEPIMPDSEG = ""
+            BBSEARCHMAXADDRELIMP = "1.5"
+            BBSEARCHMAXADDABSIMP = "10"
+            BBSEARCHMAXADDRELJT = "1.5"
+            BBSEARCHMAXADDABSJT = "10min"
+            BBSEARCHMAXADDNT = "2"
+            BBSEARCHDOMSEARCHIMPFACTOR = "1"
+            BBSEARCHDOMSEARCHIMPDELTA = "0"
+            BBSEARCHDEACTIVATEDOMINANCEOFDIRECTCONNECTIONS = "0"
+            BBSEARCHALLOWDOMINANCEFOREQUIVALENTCONNECTIONS = "1"
+            BBSEARCHPRIOFOREQUIVALENTCONNECTIONSATTR = ""
+            BBSEARCHUSEADDITIONALWAITTIMEINSEARCHIMPFORDOMINANCE = "1"
+            BBSEARCHIMPSHARINGTIMEFACTOR = "1"
+            BBSEARCHIMPSHARINGTIMEWEIGHTATTR = "1.0"
+            BBSEARCHIMPSHARINGRENTALPROCESSTIMEFACTOR = "1"
+            BBSEARCHIMPSHARINGRETURNPROCESSTIMEFACTOR = "1"
+            BBSEARCHIMPSHARINGSTAYTIMEFACTOR = "0"
+            BBSEARCHIMPSHARINGSTAYTIMEWEIGHTATTR = "1.0">
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPDIST">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPFAREPOINT">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPADDVAL_TSYS">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSIMPFIX">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+            <ATTRIBUTE              NAME = "BBSEARCHTSYSUSEIMPFIXFOREACHLEG">
+              <ATTRITEM                SUBATTR1 = "B"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "S"                VALUE = "0"              />              
+              <ATTRITEM                SUBATTR1 = "Z"                VALUE = "0"              />              
+            </ATTRIBUTE>
+          </TIMETABLEBASEDSEARCHPARA>
+          <TIMETABLEBASEDPRESELECTIONPARA
+            DELETEFOUNDCONNECTIONS = "DeleteAllConnectionsWithoutPuT"
+            DELETECONNSOUTSIDEASSIGNMENTPERIOD = "1"
+            MINSEARCHIMPFACTOR = "1.5"
+            MINSEARCHIMPABS = "10s"
+            MINJOURNEYTIMEFACTOR = "1.5"
+            MINJOURNEYTIMEABS = "10min"
+            USEMEANPJT = "0"
+            MEANPJTFACTOR = "1.5"
+            MEANPJTABS = "0h"
+            MINNUMBEROFTRANSFERS = "1"
+            DSEGFORPJTRULE = "ÖV"
+            DELETECONNSWITHDEPBEFOREASSPERIODFORDEPBASEDDSEG = "0"
+            DELETECONNSWITHARRAFTERASSPERIODFORARRBASEDDSEG = "0"
+          />          
+          <TIMETABLEBASEDDSEGPARA
+            SAMEIMPPARAMETERS = "1"
+            SAMECHOICEPARAMETERS = "1"
+            DSEGSETFORSKIMMATRICES = "ÖV,ÖV-mHVZ-4h"
+            SAMEVOLDEPIMPPARAMETERS = "1"
+            SAMEVOLDEPIMPSHARINGPARAMETERS = "1"
+          />          
+          <PUTSKIMMATRIXPARA
+            FILENAME = "M01_ÖV"
+            FORMAT = "Binary"
+            SEPARATOR = "Blank"
+            USEVISEMMODE = "1"
+            VISEMMODE = "3"
+            CONFIRMOVERWRITE = "0"
+            FUNCTION = "AggregateMean"
+            VOLUMEWEIGHTED = "1"
+            QUANTILE = "50"
+            LOWIMPCONNSHARE = "50"
+            SELECTODRELATIONTYPE = "All"
+            CALCULATEANALYSISTIMEINTERVALSKIMS = "0">
+            <SINGLESKIMMATRIXPARA
+              NAME = "ADAPTATIONTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "INVEHTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "JOURNEYDIST"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "JOURNEYTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "NUMTRANSFERS"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "PERCEIVEDJOURNEYTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "TRANSFERWAITTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "UTILITY"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+            <SINGLESKIMMATRIXPARA
+              NAME = "WALKTIME"
+              CALCULATE = "1"
+              SAVETOFILE = "0"
+              OPEN = "0"
+            />            
+          </PUTSKIMMATRIXPARA>
+          <TIMETABLEBASEDIMPEDANCEPARA
+            DSEGCODE = ""
+            PJTISACTIVE = "0"
+            PJTLAMBDA = "1"
+            PJTVAL = "1"
+            FAREISACTIVE = "0"
+            FARELAMBDA = "1"
+            FAREVAL = "0"
+            DELTATEARLYISACTIVE = "0"
+            DELTATEARLYLAMBDA = "1"
+            DELTATEARLYVAL = "1"
+            DELTATLATEISACTIVE = "0"
+            DELTATLATELAMBDA = "1"
+            DELTATLATEVAL = "1"
+            VOLDEPIMPISACTIVE = "0"
+            VOLDEPIMPLAMBDA = "1"
+            VOLDEPIMPVAL = "1"
+            CONSIDERCONNSWITHDELTATGREATERZERO = "0"
+            INVEHTIMEISACTIVE = "0"
+            INVEHTIMELAMBDA = "1"
+            INVEHTIMEVAL = "1"
+            INVEHTIMEWEIGHTATTR = ""
+            PUTAUXTIMEWEIGHTATTR = ""
+            PUTAUXTIMECOEFFISACTIVE = "0"
+            PUTAUXTIMECOEFFLAMBDA = "1"
+            PUTAUXTIMECOEFFVAL = "0"
+            ACCESSTIMEISACTIVE = "0"
+            ACCESSTIMELAMBDA = "1"
+            ACCESSTIMEVAL = "0"
+            EGRESSTIMEISACTIVE = "0"
+            EGRESSTIMELAMBDA = "1"
+            EGRESSTIMEVAL = "0"
+            WALKTIMEISACTIVE = "0"
+            WALKTIMELAMBDA = "1"
+            WALKTIMEVAL = "1"
+            ORIGINWAITTIMEISACTIVE = "0"
+            ORIGINWAITTIMELAMBDA = "1"
+            ORIGINWAITTIMEVAL = "0"
+            EXTOWTFACTOR = "0.5"
+            EXTOWTEXPONENT = "0.5"
+            EXTOWTMAXOWT = "20min"
+            TRANSFERWAITTIMEISACTIVE = "0"
+            TRANSFERWAITTIMELAMBDA = "1"
+            TRANSFERWAITTIMEVAL = "1"
+            NUMTRANSFERSISACTIVE = "0"
+            NUMTRANSFERSLAMBDA = "1"
+            NUMTRANSFERSVAL = "300"
+            NUMTRANSFERSBYJTFACTOR1 = "1"
+            NUMTRANSFERSBYJTFACTOR2 = "0"
+            NUMOPCHANGESISACTIVE = "0"
+            NUMOPCHANGESLAMBDA = "1"
+            NUMOPCHANGESVAL = "0"
+            OPERATORATTR = "NO"
+            EXTISACTIVE = "0"
+            EXTLAMBDA = "1"
+            EXTVAL = "0"
+            EXTIMPCALCACCESSEGRESSWALKPENALTY = "0"
+            EXTIMPACCESSEGRESSWALKFACTOR1 = "0.15"
+            EXTIMPACCESSEGRESSWALKFACTOR2 = "0.9"
+            EXTIMPCALCINVEHTIMEPENALTY = "0"
+            EXTIMPINVEHTIMEFACTOR1 = "0.1"
+            EXTIMPINVEHTIMEWEIGHTATTR1 = "TIMEPROFILEITEM\TIMEPROFILE\LINEROUTE\ADDVAL1"
+            EXTIMPINVEHTIMEFACTOR2 = "0.01"
+            EXTIMPINVEHTIMEWEIGHTATTR2 = "TIMEPROFILEITEM\TIMEPROFILE\LINEROUTE\ADDVAL1"
+            EXTIMPVJIATTRWEIGHTED = "1"
+            EXTIMPCALCTRANSFERPENALTY = "0"
+            EXTIMPCALCBOARDALIGHTTRANSFERPENALTY = "0"
+            EXTIMPBOARDPENALTYFACTOR = "1"
+            EXTIMPBOARDPENALTYATTR = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPALIGHTPENALTYFACTOR = "1"
+            EXTIMPALIGHTPENALTYATTR = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPTRANSFERPENALTYFACTOR1 = "1"
+            EXTIMPTRANSFERPENALTYFACTOR2 = "1"
+            EXTIMPTRANSFERPENALTYATTR1 = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPTRANSFERPENALTYATTR2 = "TIMEPROFILEITEM\LINEROUTEITEM\STOPPOINT\ADDVAL1"
+            EXTIMPCALCINTERMEDIATESTOPPENALTY = "0"
+            EXTIMPINTERMEDIATESTOPPENALTY = "0h"
+            EXTTWTMAXTWT = "24h"
+            EXTTWTUSEEXTTWT = "0"
+            EXTTWTEXPONENT = "2"
+            EXTTWTCOEFF = "0"
+            EXTTWTDELTA = "5min"
+            EXTTWTUSECONSTTIMEFORPUTAUX = "0"
+            EXTTWTCONSTPUTAUXTIME = "5min"
+            EXTTWTUSEEXTTWTWITHSPECIALWALKTIMES = "0"
+            SHARINGTIMEWEIGHTATTR = ""
+            SHARINGTIMECOEFFISACTIVE = "0"
+            SHARINGTIMECOEFFLAMBDA = "1"
+            SHARINGTIMECOEFFVAL = "1"
+            SHARINGRENTALPROCESSTIMECOEFFISACTIVE = "0"
+            SHARINGRENTALPROCESSTIMECOEFFLAMBDA = "1"
+            SHARINGRENTALPROCESSTIMECOEFFVAL = "1"
+            SHARINGRETURNPROCESSTIMECOEFFISACTIVE = "0"
+            SHARINGRETURNPROCESSTIMECOEFFLAMBDA = "1"
+            SHARINGRETURNPROCESSTIMECOEFFVAL = "1"
+          />          
+          <TIMETABLEBASEDCHOICEPARA
+            DSEGCODE = ""
+            CHOICEMODEL = "Logit"
+            USEINDEPENDENCE = "1"
+            INDEPMAXDELTA = "1h"
+            INDEPHIGHERQUALITYCOEFF = "0.3"
+            INDEPLOWERQUALITYCOEFF = "0.6"
+            QUALITYWEIGHT = "1"
+            KIRCHHOFFEXP = "4"
+            LOGITEXP = "0.1"
+            LOHSEEXP = "4"
+            BOXCOXEXP = "1"
+            BOXCOXPARA = "0.5"
+          />          
+          <TIMETABLEBASEDCONNECTIONEXPORTPARA
+            CONNEXPORTFILENAME = ""
+            CONNEXPORTMAXFILESIZE = "1000"
+            CONNEXPORTWITHVOL = "0"
+            CONNEXPORTONALLRELATIONS = "0"
+            CONNEXPORTWITHFAREPOINTS = "0"
+            CONNEXPORTFARESTYPE = "StorageFaresNone"
+            DSEGFORFAREEXPORT = ""
+            CONNEXPORTWITHUSERDEFINEDATTRIBUTES = "1"
+            CONNEXPORTWITHALLDSEGFARES = "1"
+          />          
+          <TIMETABLEBASEDITERATIONPARA
+            USESECONDSEARCH = "1"
+            NUMASSIGNEDDEMANDSLICESAFTERSEARCH = "1"
+            CONVERGENCEMAXITERATIONS = "5"
+            CONVERGENCEVOLUMEDIFFERENCEPARAA = "0.05"
+            CONVERGENCEVOLUMEDIFFERENCEPARAB = "5"
+            SMOOTHINGPARAA = "0.5"
+            SMOOTHINGMODEL = "VolumeExponential"
+            USECONVERGENCETRACE = "0"
+            CONVERGENCETRACEFILE = ""
+          />          
+          <TIMETABLEBASEDVEHICLEJOURNEYVOLDEPIMPEDANCEPARA
+            VOLDEPIMPEDANCEPARAA = "-4.9"
+            VOLDEPIMPEDANCEPARAB = "9.8"
+            VOLDEPIMPEDANCEPARAC = "2"
+            VOLDEPIMPEDANCEPARAL1 = "1"
+            VOLDEPIMPEDANCEPARAL2 = "2"
+            VOLDEPIMPEDANCEMODEL = "DB"
+            DSEGCODE = ""
+            MAXPASSENGERDENSITY = "4/m2"
+            VOLDEPIMPEDANCESITTINGPARAA = "0"
+            VOLDEPIMPEDANCESITTINGPARAB = "0.08"
+            VOLDEPIMPEDANCESTANDINGPARAA = "0.25"
+            VOLDEPIMPEDANCESTANDINGPARAB = "0.09"
+          />          
+          <TIMETABLEBASEDSHARINGVOLDEPIMPEDANCEPARA
+            DSEGCODE = ""
+            AVAILABLEVEHICLESATSTATIONIMPEDANCEPARAA = "30min"
+            AVAILABLEVEHICLESATSTATIONIMPEDANCEPARAB = "1"
+            AVAILABLEPARKINGSPACESIMPEDANCEPARAA = "30min"
+            AVAILABLEPARKINGSPACESIMPEDANCEPARAB = "1"
+            AVAILABLEVEHICLESATZONEIMPEDANCEPARAA = "30min"
+            AVAILABLEVEHICLESATZONEIMPEDANCEPARAB = "1"
+          />          
+          <TIMETABLEBASEDVEHICLEJOURNEYCAPACITYCONSTRAINTPARA            VEHJOURNEYITEMSEATCAPACITY = "SUM:VEHJOURNEYSECTIONS\VEHCOMB\SEATCAP"            VEHJOURNEYITEMTOTALCAPACITY = "SUM:VEHJOURNEYSECTIONS\VEHCOMB\TOTALCAP"          />          
+          <TIMETABLEBASEDSHARINGPARA            UPDATESHARINGTRAVELTIMESBEFOREASSIGNMENT = "1"            IMPEDANCETIMEINTERVALDURATION = "1h">
+            <ATTRIBUTE              NAME = "SHARINGTRAVELTIMEPRTSYS"            />            
+            <ATTRIBUTE              NAME = "INITIALVOLUMECAPACITYRATIO"            />            
+          </TIMETABLEBASEDSHARINGPARA>
+        </TTBASEDASSIGNMENTPARAMETERS>
+      </PUTASSIGNMENTPARABASE>
+    </OPERATION>
+    <OPERATION
+      NO = "11"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "Private Transport(=PrT)"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:1"
+      ENDTIME = "2018-7-3 13:46:1"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "12"
+      CODE = ""
+      OPERATIONTYPE = "PrTAssignment"
+      ACTIVE = "1"
+      COMMENT = "calculate equilibrium assignment using mode PrT for modal split calculation"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:1"
+      ENDTIME = "2018-7-3 13:46:2"
+      DURATION = "1s"
+      MESSAGES = ""
+      RESULTMESSAGE = "Die Umlegung konvergierte nach 2 von max. 20 Iterationen mit einem GAP von 6.61228667e-05."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <PRTASSIGNMENTPARA        PRTASSIGNMENTVARIANT = "Equilibrium"        DSEGSET = "P">
+        <EQUILIBRIUMPARA>
+          <EQUIINITIALSOLUTIONPARA            USECURRENTSOLUTION = "0">
+            <DEMANDSHAREPARA>
+              <ATTRIBUTE                NAME = "DEMANDSHARE">
+                <ATTRITEM                  SUBATTR1 = "1"                  VALUE = "100"                />                
+                <ATTRITEM                  SUBATTR1 = "2"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "3"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "4"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "5"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "6"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "7"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "8"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "9"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "10"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "11"                  VALUE = "0"                />                
+                <ATTRITEM                  SUBATTR1 = "12"                  VALUE = "0"                />                
+              </ATTRIBUTE>
+            </DEMANDSHAREPARA>
+          </EQUIINITIALSOLUTIONPARA>
+          <EQUISTOPCRITERIAPARA
+            MAXNUMOUTERIT = "20"
+            MAXABSIMPDEV = "0"
+            MAXRELIMPDEV = "0"
+            MAXRELATIVEGAP = "0.0001">
+            <NETBALANCING              GENERALVALUE = "5"            />            
+          </EQUISTOPCRITERIAPARA>
+        </EQUILIBRIUMPARA>
+      </PRTASSIGNMENTPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "13"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "line blocking"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:2"
+      ENDTIME = "2018-7-3 13:46:2"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "14"
+      CODE = ""
+      OPERATIONTYPE = "InitLineBlockCalc"
+      ACTIVE = "1"
+      COMMENT = "init"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:2"
+      ENDTIME = "2018-7-3 13:46:2"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = "Alle Umlaufversionen wurden initialisert."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <INITLINEBLOCKINGPARA        INITALLBLOCKVERSIONS = "1"        BLOCKVERSIONNO = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "15"
+      CODE = ""
+      OPERATIONTYPE = "LineBlockCalc"
+      ACTIVE = "1"
+      COMMENT = "line blocking with interlining"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:2"
+      ENDTIME = "2018-7-3 13:46:2"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = "Es wurden keine Umläufe gebildet, weil die Menge der Fahrplanfahrtabschnitte leer war."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <LINEBLOCKINGCALCPARA
+        BLOCKVERSIONNO = "1"
+        SETBLOCKVERSIONACTIVE = "1"
+        ONLYACTIVEVEHJOURNEYSECTIONS = "1"
+        ONLYUNBLOCKEDVEHJOURNEYSECTIONS = "0"
+        CREATESELFCONTAINEDBLOCKS = "1"
+        STARTENDINDEPOT = "0"
+        INSERTSTARTITEM = "0"
+        INSERTSTARTITEMTYPENO = "4"
+        INSERTENDITEM = "0"
+        INSERTENDITEMTYPENO = "4"
+        SAMEOPERATOR = "0"
+        SAMETSYS = "1"
+        SAMELINE = "0"
+        VEHICLEREQUIREMENTSFACTOR = "1"
+        VEHICLEREQUIREMENTSSTDVALUE = "300"
+        SERVICETIMEFACTOR = "1"
+        SERVICETIMESTDVALUE = "30"
+        SERVICELENGTHFACTOR = "1"
+        SERVICELENGTHSTDVALUE = "1"
+        EMPTYTIMEFACTOR = "1"
+        EMPTYTIMESTDVALUE = "30"
+        EMPTYLENGTHFACTOR = "1"
+        EMPTYLENGTHSTDVALUE = "1"
+        EMPTYTRIPSFACTOR = "0"
+        LAYOVERTIMEFACTOR = "1"
+        LAYOVERTIMESTDVALUE = "30"
+        LAYOVERDEPOTTIMEFACTOR = "1"
+        LAYOVERDEPOTTIMESTDVALUE = "15"
+        VEHICLEINTERCHANGE = "0"
+        USESTARTSOLUTION = "0"
+        STARTSOLUTIONNO = "0"
+        MAXITERATIONS = "50"
+        MAXNONIMPROVEDITERATIONS = "5"
+        NUMSOLUTIONS = "25"
+        USEREGULARITYBLOCKINGDAY = "0"
+        OBJECTIVECOST = "1"
+        OBJECTIVEREGULARITY = "0"
+        OBJECTIVELINEINTERCHANGELOCAL = "0"
+        OBJECTIVELINEINTERCHANGEGLOBAL = "0"
+        OBJECTIVEDISTANCETOSTARTSOLUTION = "0"
+        OBJECTIVEMAXVEHUNITS = "1"
+        OBJECTIVEVEHUNITATTID = ""
+        OBJECTIVEVOLUME = "1"
+        OBJECTIVEVEHCOMBSPERLINE = "1"
+        INITIALRANDOMSEED = "1"
+        USEMAXVOLUME = "0"
+        VOLCAPRATIOATTID = "1.0"
+        VEHJOURNEYITEMFILTERATTID = "1.0"
+        VOLUMEATTID = "VOL(AP)"
+        REGARDCHAINEDUPSECTIONS = "0"
+        SECONDARYCHAININGCRITERION = "MINIMIZE_LINE_INTERCHANGE"
+        BUILDSHORTORLONGBLOCKS = "DONT_CARE"
+        REGARDORIENTATION = "0"
+        USEFUZZYLAYOVERTIMES = "0"
+        FUZZYLAYOVERTIMESMINFIXLAYOVERTIMEISNEGATIVE = "0"
+        FUZZYLAYOVERTIMESMINFIXLAYOVERTIME = "300"
+        FUZZYLAYOVERTIMESVARIABLELAYOVERTIMEPORTION = "0.2"
+        FUZZYLAYOVERTIMESVEHICLECOSTTRADEOFFPERVEHICLE = "300">
+        <EMPTYTRIPTSYSELEMS        />        
+      </LINEBLOCKINGCALCPARA>
+    </OPERATION>
+    <OPERATION
+      NO = "16"
+      CODE = ""
+      OPERATIONTYPE = "Group"
+      ACTIVE = "1"
+      COMMENT = "costs and revenues"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:2"
+      ENDTIME = "2018-7-3 13:46:2"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = ""
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <GROUPPARA        ISEXPANDED = "1"      />      
+    </OPERATION>
+    <OPERATION
+      NO = "17"
+      CODE = ""
+      OPERATIONTYPE = "InitPuTOperatingIndicators"
+      ACTIVE = "1"
+      COMMENT = "init"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:2"
+      ENDTIME = "2018-7-3 13:46:2"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = "Das Verfahren &apos;Init ÖV-betriebliche Kennzahlen&apos; wurde erfolgreich beendet."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <INITPUTOPINDPARA
+        INITPERFORMANCEIND = "1"
+        INITPERFORMANCEINDFORTERRITORIES = "1"
+        INITCOSTIND = "1"
+        INITCOSTINDFORTERRITORIES = "1"
+        INITREVENUEIND = "1"
+        INITREVENUEINDFORTERRITORIES = "1"
+        INITDEMANDINDFORTERRITORIES = "1"
+      />      
+    </OPERATION>
+    <OPERATION
+      NO = "18"
+      CODE = ""
+      OPERATIONTYPE = "PuTOperatingIndicators"
+      ACTIVE = "1"
+      COMMENT = "calculate operating costs"
+      EXECUTED = "1"
+      STARTTIME = "2018-7-3 13:46:2"
+      ENDTIME = "2018-7-3 13:46:3"
+      DURATION = "0min"
+      MESSAGES = ""
+      RESULTMESSAGE = "Das Verfahren &apos;ÖV-betriebliche Kennzahlen&apos; wurde erfolgreich beendet. Es wurden Kennzahlen für 0 Fahrzeitprofile berechnet."
+      SUCCESS = "1"
+      COMPUTENODE = ""
+      WARNINGCOUNT = "0"
+      ERRORCOUNT = "0"
+      INFORMATIONCOUNT = "0">
+      <PUTOPINDPARAMETERS>
+        <PUTOPINDBASEPARA
+          CALCULATIONBASEFORTERRITORIES = "Only Territories"
+          STOREVEHICLEJOURNEYCOURSEDATA = "1"
+          ONLYACTIVEVEHICLEJOURNEYSECTIONS = "1"
+          ONLYACTIVETERRITORIES = "0"
+        />        
+        <PUTOPINDPERFORMANCEPARA
+          CALCULATEFORTERRITORIES = "1"
+          EMPTYJOURNEYSREFERENCE = "Empty time from pre and post preparation time"
+          EMPTYJOURNEYSSHAREBEFORE = "0"
+          CALCULATETERRITORYINDICATORS = "0"
+          CALCULATETURNREL = "0"
+          USEUSERDEFINEDPRFACTORSFORPASSTRIPCHAINS = "0"
+          USERDEFINEDPASSTRIPCHAINPRFACTORSUPPLY = "1"
+          USERDEFINEDPASSTRIPCHAINPRFACHOURCOST = "1"
+        />        
+        <PUTOPINDDEMANDPARA          CALCULATEFORTERRITORIES = "1"          DISTRIBUTIONTYPE = "EQUALDISTRIBUTION"        />        
+        <PUTOPINDREVENUEPARA
+          CALCULATE = "1"
+          CALCULATEFORTERRITORIES = "1"
+          STOREONLYFORACTIVETIMEPROFILES = "1"
+        />        
+        <PUTOPINDINFRASTRUCTURECOSTPARA
+          CALCULATE = "1"
+          CALCULATEFORTERRITORIES = "0"
+          CALCULATELINKCOST = "1"
+          CALCULATESTOPPOINTCOST = "0"
+          CALCULATEOPERATORCOST = "0">
+          <PUTOPINDLINKCOSTPARA
+            NAME = ""
+            COSTTYPE = "DEPRECIATION COST"
+            DEPRECIATIONPERIOD = "10"
+            INTERESTRATE = "7"
+            TIMEREF = "ANALYSIS HORIZON"
+            LENGTHREF = "LINK LENGTH"
+          />          
+          <PUTOPINDLINKCOSTPARA
+            NAME = ""
+            COSTTYPE = "RUNNING COST"
+            DEPRECIATIONPERIOD = "0"
+            INTERESTRATE = "0"
+            TIMEREF = "ANALYSIS PERIOD"
+            LENGTHREF = "LINK LENGTH"
+          />          
+          <PUTOPINDLINKCOSTPARA
+            NAME = ""
+            COSTTYPE = "UTILIZATION COST"
+            DEPRECIATIONPERIOD = "0"
+            INTERESTRATE = "0"
+            TIMEREF = "ANALYSIS HORIZON"
+            LENGTHREF = "LINK LENGTH"
+          />          
+          <PUTOPINDSTOPPOINTCOSTPARA
+            NAME = ""
+            COSTTYPE = "DEPRECIATION COST"
+            DEPRECIATIONPERIOD = "10"
+            INTERESTRATE = "7"
+            TIMEREF = "ANALYSIS HORIZON"
+            SERVICEREF = "ALL VEHICLE JOURNEYS"
+          />          
+          <PUTOPINDSTOPPOINTCOSTPARA
+            NAME = ""
+            COSTTYPE = "RUNNING COST"
+            DEPRECIATIONPERIOD = "0"
+            INTERESTRATE = "0"
+            TIMEREF = "ANALYSIS HORIZON"
+            SERVICEREF = "ALL VEHICLE JOURNEYS"
+          />          
+          <PUTOPINDSTOPPOINTCOSTPARA
+            NAME = ""
+            COSTTYPE = "UTILIZATION COST"
+            DEPRECIATIONPERIOD = "10"
+            INTERESTRATE = "7"
+            TIMEREF = "ANALYSIS HORIZON"
+            SERVICEREF = "ALL VEHICLE JOURNEYS"
+          />          
+          <PUTOPINDOPERATORCOSTPARA
+            NAME = ""
+            COSTTYPE = "DEPRECIATION COST"
+            DEPRECIATIONPERIOD = "10"
+            INTERESTRATE = "7"
+            TIMEREF = "ANALYSIS HORIZON"
+            WEIGHTSERVICEKM = "50"
+            WEIGHTSEATKM = "0"
+            WEIGHTSERVICETIME = "50"
+            WEIGHTVEHICLEJOURNEYS = "0"
+            WEIGHTPASSKM = "0"
+            WEIGHTPTRIPSUNLINKED = "0"
+          />          
+          <PUTOPINDOPERATORCOSTPARA
+            NAME = ""
+            COSTTYPE = "RUNNING COST"
+            DEPRECIATIONPERIOD = "0"
+            INTERESTRATE = "0"
+            TIMEREF = "ANALYSIS HORIZON"
+            WEIGHTSERVICEKM = "50"
+            WEIGHTSEATKM = "0"
+            WEIGHTSERVICETIME = "50"
+            WEIGHTVEHICLEJOURNEYS = "0"
+            WEIGHTPASSKM = "0"
+            WEIGHTPTRIPSUNLINKED = "0"
+          />          
+          <PUTOPINDOPERATORCOSTPARA
+            NAME = ""
+            COSTTYPE = "RUNNING COST"
+            DEPRECIATIONPERIOD = "0"
+            INTERESTRATE = "0"
+            TIMEREF = "ANALYSIS HORIZON"
+            WEIGHTSERVICEKM = "50"
+            WEIGHTSEATKM = "0"
+            WEIGHTSERVICETIME = "50"
+            WEIGHTVEHICLEJOURNEYS = "0"
+            WEIGHTPASSKM = "0"
+            WEIGHTPTRIPSUNLINKED = "0"
+          />          
+        </PUTOPINDINFRASTRUCTURECOSTPARA>
+        <PUTOPINDADDITIONALATTRPARA          CALCULATE = "0"          CALCULATEFORTERRITORIES = "0"        />        
+      </PUTOPINDPARAMETERS>
+    </OPERATION>
+  </OPERATIONS>
+</PROCEDURES>
