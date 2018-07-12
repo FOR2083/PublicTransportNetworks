@@ -1,0 +1,8 @@
+#lc_model; "traveling-time-cg"
+#lc_model; "direct"
+#lc_model; "cost_rewarding_high_frequencies"
+rollout_whole_trips; true
+ean_construction_target_model_frequency; "FREQUENCY_AS_MULTIPLICITY"
+#lc_budget; 550
+#ean_construction_target_model_change; "LCM_SIMPLIFICATION"
+tim_eval_extended; true
