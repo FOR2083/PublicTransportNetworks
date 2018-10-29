@@ -21,7 +21,7 @@ A ring network with 11 rings and 8 radial axes.
 ![ring_demand](Input/Image/Demand.jpg)
 
 Attention: only the first 100 greatest values for odpairs are displayed.
-![ring_demand_od](Input/Image/Demand.jpg)
+![ring_demand_od](Input/Image/Demand_OD.jpg)
 
 ## Vehicle and Operating Cost Data
 One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. There are no minimum layover times at the terminals.
