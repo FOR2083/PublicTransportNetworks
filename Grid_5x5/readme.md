@@ -3,7 +3,7 @@
 ## Description
 A grid network with 5 rows and 5 columns.
 
-![Grid_5x5](Input/Image/Network.jpg)
+![grid_network](Input/Image/Network.jpg)
 
 ## Supply Data
 | Network       | Value  | Unit |
