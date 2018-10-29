@@ -1,0 +1,8 @@
+solver_time; 14421.231430053711
+gap; 0.08731549209408261
+objective; 45662.0
+objective_per_passenger; 17.93479968578162
+length_fix_passengers_lower_bound; 0
+travel_time_routed_OD_pairs; 45662.0
+LB_objective; 45662.0
+LB_objective_per_passenger; 17.93479968578162

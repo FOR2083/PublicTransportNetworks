@@ -1,0 +1,34 @@
+setting-name; setting-value
+include; "../../Global-Config.cnf"
+# ===========================================================================
+# === LOCAL_ONLY from Global-Config.cnf =====================================
+# ===========================================================================
+ptn_name; "Grid"
+period_length; 60
+time_units_per_minute; 1
+ptn_draw_conversion_factor; 5
+ptn_draw_conversion_factor; 1
+sl_radius; 0
+# speed of the vehicles in km/h
+gen_vehicle_speed; 20
+gen_conversion_length; 1
+gen_conversion_coordinates; 0.02
+ean_default_minimal_waiting_time; 0
+ean_default_maximal_waiting_time; 3
+ean_default_minimal_change_time; 3
+ean_default_maximal_change_time; 62
+ean_change_penalty; 5
+# interpolated from Load.giv.nominal
+gen_passengers_per_vehicle; 70
+# ===========================================================================
+# === Network Specific Settings =============================================
+# ===========================================================================
+stops_header; "stop-id; short-name; long-name; x-coordinate; y-coordinate"
+odptn_missing_values; "GLOBAL_MEAN_VALUE"
+lpool_evaluate_average_traveling_time_lower_bound; true
+# ===========================================================================
+# === State / Experiments / Automatization ==================================
+# ===========================================================================
+include_if_exists; "State-Config.cnf"
+include_if_exists; "Private-Config.cnf"
+include_if_exists; "After-Config.cnf"

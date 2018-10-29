@@ -1,51 +1,40 @@
-# Grid 5x5 Instance
+# Public Transport Networks
+Public Transport Networks is a networks repository for public transport research. It provides networks as test instances for the following types of problems:
+  - Public transport network design problem (NDP)
+  - Public transport vehicle and crew scheduling
+  - Public transport networks with disturbances
+  - Public transport assignment
+  - Handling of ridesharing trips
 
-## Description
-A grid network with 5 rows and 5 columns.
+# How the Data is Organized
 
-![grid_network](Input/Image/Network.jpg)
+Each individual network and related files is stored in a separate folder. Each folder contains the following subfolders:
+  - Input: provides data describing the transport supply (nodes, stops, links, running times)  and data describing the travel demand (traffic zones, trips between traffic zones)
+  - Solution_NDP_Summary: Overview of all solutions for the Network Design Problem
+  -	Solution_NDP_Name: Description of a particular solution for the Network Design Problem 
+  
+# License 
 
-## Supply Data
-| Network       | Value  | Unit |
-| ---           | ---    |---   |
-| Zones         |     25 | [-]  |    
-| Nodes/stops   |     25 | [-]  |   
-| Links         |     80 | [-]  |
+The current data sets are a result of the research project "[FOR 2083: Integrated Planning For Public Transportation](https://for2083.math.uni-goettingen.de/en/project)" funded by the German Research Association DFG. Data sets are for academic research purposes only. Users are are fully responsible for any results or conclusions obtained by using these data sets. Users must indicate the source of any dataset they are using in any publication that relies 
+on any of the datasets provided in this web site.  The Research Group FOR 2083 is not responsible for the content of the data sets. Agencies, organizations, institutions and individuals acknowledged in this web site for their contribution to the datasets are not responsible for the content or the correctness of the datasets.
 
-## Demand Data
-| Demand       | Value  | Unit       | 
-| ---          | ---    |---         |
-| OD-pairs     |    600 | [-]        |
-| Trips        |   2531 | [Trips/h]  |
+# Summary of Networks
 
-![grid_demand](Input/Image/Demand.jpg)
+| Network                                            | Zones | Links  | Nodes  |
+| ---                                                | ---   | ---    | ---    |
+| Grid                                               |    25 |     80 |     25 |
+| Ring                                               |   161 |    640 |    161 |
+| SiouxFalls                                         |    24 |     76 |     24 |
+| Stuttgart                                          |    NN |     NN |     NN |
 
-Attention: only the first 100 greatest values for odpairs are displayed.
-![grid_demand_od](Input/Image/Demand_OD.jpg)
+# Formats
+The  data is provided in the following formats
+  - text-format [LimTim](https://lintim.math.uni-goettingen.de/index.php?go=main.php&lang=en)
+  - text-format [VISUM](http://vision-traffic.ptvgroup.com/en-us/products/ptv-visum/)
+  - spreadsheet-format (.xls)
+  - binary-format [VISUM](http://vision-traffic.ptvgroup.com/en-us/products/ptv-visum/)
+  
 
-## Vehicle and Operating Cost Data
-One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. There are no minimum layover times at the terminals.
-
-| Vehicle           | Value  | Unit     | 
-| ---               | ---    |---       |
-| Capacity          |     70 |  [Places]|
-| Operating Cost/h  |  50.00 |[Monetary]|
-| Operating Cost/km |   1.50 |[Monetary]|
-
-## Transfer Time
-Every transfer requires a minimum transfer time of 3 minutes.
-
-| Transfer           | Value  | Unit     | 
-| ---                | ---    |---       |
-| Min. transfer time |      3 |[min]     |
-
-## Perceived Journey Time
-Evaluating the service quality considers in-vehicle time IVT, transfer wait time TWT and number of transfers NoT. Every transfer is weighted with a time penalty of 5 minutes. Access and egress times are not included. For the route choice in the assignment and for evaluating the service quality a perceived journey time is computed
-
-PJT = 1.0 * IVT + 1.0 * TWT + 5.0 * NoT. 
-
-| Factor            | Value  | Unit         | 
-| ---               | ---    |---           |
-| in-vehicle time   |    1.0 |  [-]         |
-| transfer wait time|    1.0 |  [-]         |
-| transfer          |    5.0 |[min/transfer]|
+# Other Related Projects
+- [LinTim](https://lintim.math.uni-goettingen.de/index.php?go=main.php&lang=en)
+- [Transportation Networks](https://github.com/bstabler/TransportationNetworks)
