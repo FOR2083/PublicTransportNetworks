@@ -1,6 +1,6 @@
 # Solutions
 
-![grid_network](Input/Image/Pareto-Front.jpg)
+![Pareto-Front](Input/Image/Pareto-Front.jpg)
 
 | ID				| Network 		| Solution Title	| Creation Date		| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Operating Cost [$]	|
 | ---				| ---			| ---				| ---				| ---				| ---					| ---						| ---				| ---					|
