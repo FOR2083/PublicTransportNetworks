@@ -22,6 +22,7 @@ The independent characteristics of a solution are described and listed for the s
 | OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| 696.00	| [$]	| 0700	| supply	|
 
 The assignment dependent characteristics of a solution are described by the following indicators:
+
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 25.70	| [min]	| 0700	| demand	|
