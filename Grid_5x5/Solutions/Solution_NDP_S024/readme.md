@@ -1,7 +1,7 @@
 # Results
 
 ## Line Concept
-![grid_network](Solutions/Solution_NDP_S024/Image/Line_Concept.jpg)
+![line_concept](Image/Line_Concept.jpg)
 
 ## Indicators of a Solution
 The independent characteristics of a solution are described and listed for the solution by the following indicators:

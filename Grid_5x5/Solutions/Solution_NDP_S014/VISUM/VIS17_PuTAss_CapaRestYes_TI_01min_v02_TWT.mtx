@@ -1,11 +1,11 @@
 $O
-* From  to
+* Von  Bis
 0.00 0.00
-* Factor
+* Faktor
 1.00
 *  
 * Universität Stuttgart Fakultät 2 Bau+Umweltingenieurwissenschaften Stuttgart
-* 10/25/18
+* 30.10.18
        101        201      9 
        101        202      9 
        101        204      0 
@@ -266,7 +266,7 @@ $O
        505        402      7 
        505        501      7 
        505        502      7 
-* Network object names
+* Netzobjektnamen
 $NAMES
 101 "S02-04"
 102 "S02-05"

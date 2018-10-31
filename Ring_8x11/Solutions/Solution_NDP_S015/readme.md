@@ -1,7 +1,7 @@
 # Results
 
 ## Line Concept
-![grid_network](Solutions/Solution_NDP_S015/Image/Line_Concept.jpg)
+![line_concept](Image/Line_Concept.jpg)
 
 ## Indicators of a Solution
 The independent characteristics of a solution are described and listed for the solution by the following indicators:
@@ -22,10 +22,11 @@ The independent characteristics of a solution are described and listed for the s
 | OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| 830.40	| [$]	| 0700	| supply	|
 
 The assignment dependent characteristics of a solution are described by the following indicators:
+
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 22.40	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 22.80	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 22.70	| [min]	| 0700	| demand	|
 | MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 22.80	| [min]	| 0700	| demand	|
 | MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 22.80	| [min]	| 0700	| demand	|
 

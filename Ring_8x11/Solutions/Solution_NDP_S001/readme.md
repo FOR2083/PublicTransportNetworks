@@ -1,7 +1,7 @@
 # Results
 
 ## Line Concept
-![grid_network](Solutions/Solution_NDP_S001/Image/Line_Concept.jpg)
+![line_concept](Image/Line_Concept.jpg)
 
 ## Indicators of a Solution
 The independent characteristics of a solution are described and listed for the solution by the following indicators:
@@ -22,6 +22,7 @@ The independent characteristics of a solution are described and listed for the s
 | OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| 1440.00	| [$]	| 0700	| supply	|
 
 The assignment dependent characteristics of a solution are described by the following indicators:
+
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 24.10	| [min]	| 0700	| demand	|

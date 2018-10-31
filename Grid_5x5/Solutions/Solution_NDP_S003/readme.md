@@ -1,7 +1,7 @@
 # Results
 
 ## Line Concept
-![grid_network](Solutions/Solution_NDP_S003/Image/Line_Concept.jpg)
+![line_concept](Image/Line_Concept.jpg)
 
 ## Indicators of a Solution
 The independent characteristics of a solution are described and listed for the solution by the following indicators:
@@ -22,12 +22,13 @@ The independent characteristics of a solution are described and listed for the s
 | OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| 648.00	| [$]	| 0700	| supply	|
 
 The assignment dependent characteristics of a solution are described by the following indicators:
+
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 22.80	| [min]	| 0700	| demand	|
 | MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 22.90	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 22.90	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 22.90	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 23.30	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 23.20	| [min]	| 0700	| demand	|
 
 The final evaluation of a solution uses the indicators mean perceived journey time to describe the impact on the travelers and operating cost to describe the impact on the operator.
 

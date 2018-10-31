@@ -1,11 +1,11 @@
 $O;D2
-* From  to
+* Von  Bis
 0.00 0.00
-* Factor
+* Faktor
 1.00
 *  
 * Universität Stuttgart Fakultät 2 Bau+Umweltingenieurwissenschaften Stuttgart
-* 10/25/18
+* 30.10.18
        101        201   1.00 
        101        202   1.00 
        101        203   1.00 
@@ -22456,7 +22456,7 @@ $O;D2
       1610       1508   1.00 
       1610       1509   1.00 
       1610       1510   1.00 
-* Network object names
+* Netzobjektnamen
 $NAMES
 101 "H101"
 102 "H102"
