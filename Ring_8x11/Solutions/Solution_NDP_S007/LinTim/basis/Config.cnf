@@ -1,0 +1,41 @@
+# configuration file, written by Michael Siebert
+setting-name; setting-value
+include; "../../Global-Config.cnf"
+# ===========================================================================
+# === LOCAL_ONLY from Global-Config.cnf =====================================
+# ===========================================================================
+ptn_name; ring
+# period length in time units
+period_length; 60
+# the number of time units per minute
+time_units_per_minute; 1
+# the time to wait at each stop
+ptn_stop_waiting_time; 1
+# speed of the vehicles in km/h
+gen_vehicle_speed; 20
+# conversion factor to convert length in Edge.giv to kilometers
+gen_conversion_length; 1
+# conversion factor to convert the distance between two stations from coordinates to meters
+gen_conversion_coordinates; 0.02
+#lower bound on wait activities in the ean
+ean_default_minimal_waiting_time; 0
+# upper bound on wait acitivies in the ean
+ean_default_maximal_waiting_time; 3
+# lower bound on change activities in the ean
+ean_default_minimal_change_time; 3
+ean_default_maximal_change_time; 62
+# the penalty for each change in the ean
+ean_change_penalty; 5
+# maximale number of passengers per vehicle
+gen_passengers_per_vehicle; 70
+ptn_draw_conversion_factor; 5
+# ===========================================================================
+# === Network Specific Settings =============================================
+# ===========================================================================
+# Enter your config parameter here
+# ===========================================================================
+# === State / Experiments / Automatization ==================================
+# ===========================================================================
+include_if_exists; "State-Config.cnf"
+include_if_exists; "Private-Config.cnf"
+include_if_exists; "After-Config.cnf"
