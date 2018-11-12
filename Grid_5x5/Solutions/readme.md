@@ -2,8 +2,8 @@
 
 ![grid_network](https://github.com/FOR2083/PublicTransportNetworks/blob/master/Grid_5x5/Input/Image/Pareto-Front.jpg)
 
-| ID				| Network 		| Solution Title	| Creation Date		| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Operating Cost [$]	|
-| ---				| ---			| ---				| ---				| ---				| ---					| ---						| ---				| ---					|
+| ID				| Solution Title	| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Mean Perceived Journey Time [min] (Shortest Path) | Operating Cost [$]
+| ---				| ---				| ---				| ---					| ---						| ---				| ---					| ---
 |Solution_NDP_S001	|02_Grid	|P_1_1	|30.10.2018 12:02:49	|6	|24	|432.0	|21.6	|1848.0	|
 |Solution_NDP_S002	|02_Grid	|P_1_2	|30.10.2018 12:03:02	|6	|24	|432.0	|21.8	|1848.0	|
 |Solution_NDP_S003	|02_Grid	|P_2_1	|30.10.2018 12:03:16	|5	|23	|432.0	|21.6	|1798.0	|
