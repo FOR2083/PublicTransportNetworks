@@ -1,4 +1,4 @@
-#line-id;line-code;direction;stop-order;stop-id;frequency;departure_time;arrival_time
+#line-id;line-code;direction;stop-order;stop-id;frequency;arrival_time;departure_time
 23; 23H; >; 1; 25; 1; 0; 0
 23; 23H; >; 2; 24; 1; 6; 6
 23; 23H; >; 3; 19; 1; 12; 12

@@ -1,4 +1,4 @@
-#line-id;line-code;direction;stop-order;stop-id;frequency;departure_time;arrival_time
+#line-id;line-code;direction;stop-order;stop-id;frequency;arrival_time;departure_time
 98; 98H; >; 1; 14; 3; 21; 21
 98; 98H; >; 2; 9; 3; 27; 27
 98; 98H; >; 3; 8; 3; 33; 33

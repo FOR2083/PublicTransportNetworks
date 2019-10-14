@@ -25,6 +25,7 @@ on any of the datasets provided in this web site.  The Research Group FOR 2083 i
 | Grid                                               |    25 |     80 |     25 |
 | Ring                                               |   161 |    640 |    161 |
 | SiouxFalls                                         |    24 |     76 |     24 |
+| Erding											 |    52 |    146 |     52 |
 | Stuttgart                                          |    NN |     NN |     NN |
 
 # Formats

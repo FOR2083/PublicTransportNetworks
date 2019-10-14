@@ -9,7 +9,7 @@ The independent characteristics of a solution are described and listed for the s
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | LINES													| number of lines																																| 15	| [-]	| 0700	| supply	|
-| VEHICLES												| number of vehicles																															| 21	| [-]	| 0700	| supply	|
+| VEHICLES												| number of vehicles																															| 22	| [-]	| 0700	| supply	|
 | SERVICES (RUNS)										| number of services (runs)																														| 180	| [-]	| 0700	| supply	|
 | VEHICLE KILOMETERS TOTAL								| sum of service and empty kilometers																											| 340.00	| [km]	| 0700	| supply	|
 | VEHICLE KILOMETERS SERVICE							| sum of kilometers travelled for the transport of passengers																					| 340.00	| [km]	| 0700	| supply	|
@@ -17,8 +17,8 @@ The independent characteristics of a solution are described and listed for the s
 | VEHICLE HOURS TOTAL									| sum of service and empty hours																												| 17.48	| [h]	| 0700	| supply	|
 | VEHICLE HOURS SERVICE									| sum of hours required for the transport of passengers																							| 17.48	| [h]	| 0700	| supply	|
 | VEHICLE HOURS EMPTY									| sum of hours required for pulling out, pulling in, interlining and standing at the terminal													| 0.00	| [h]	| 0700	| supply	|
-| OPERATING COST TOTAL									| sum of time and kilometer costs																												| 1560.00	| [$]	| 0700	| supply	|
-| OPERATING COST TIME									| sum of costs for personell depending on working time																							| 1050.00	| [$]	| 0700	| supply	|
+| OPERATING COST TOTAL									| sum of time and kilometer costs																												| 1610.00	| [$]	| 0700	| supply	|
+| OPERATING COST TIME									| sum of costs for personell depending on working time																							| 1100.00	| [$]	| 0700	| supply	|
 | OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| 510.00	| [$]	| 0700	| supply	|
 
 The assignment dependent characteristics of a solution are described by the following indicators:
@@ -27,8 +27,8 @@ The assignment dependent characteristics of a solution are described by the foll
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 18.86	| [min]	| 0700	| demand	|
 | MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 19.42	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 20.17	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 20.06	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 19.91	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 19.71	| [min]	| 0700	| demand	|
 
 The final evaluation of a solution uses the indicators mean perceived journey time to describe the impact on the travelers and operating cost to describe the impact on the operator.
 

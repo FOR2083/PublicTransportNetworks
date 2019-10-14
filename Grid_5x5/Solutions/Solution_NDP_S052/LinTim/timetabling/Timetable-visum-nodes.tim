@@ -1,4 +1,4 @@
-#line-id;line-code;direction;stop-order;stop-id;frequency;departure_time;arrival_time
+#line-id;line-code;direction;stop-order;stop-id;frequency;arrival_time;departure_time
 30; 30H; >; 1; 1; 3; 0; 0
 30; 30H; >; 2; 2; 3; 6; 6
 30; 30H; >; 3; 3; 3; 12; 12

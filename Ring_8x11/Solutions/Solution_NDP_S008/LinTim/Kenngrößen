@@ -1,16 +1,16 @@
 Number of lines: 29.0
 Total travelling time: 74027
 Total travelling time average: 26.76203488515441
-Average travelling time(rerouted): 13.495345
-Total travelling time (rerouted): 37329.74374340951
-Number of vehicles: 103
-Empty kilometers(statistic): 0.0
-Empty kilometers(VS): 0.0
-Empty duration: 0.0
-Standing duration: 27.383333333333333
-Full kilometers: 964.4499999999999
-Full duration: 63.825
-Duration: 91.20833333333334
-Length: 964.4499999999999
-Total vehicle costs: 6301.883333333334
-Felt travelling time average: 15.10987
+Average travelling time(rerouted): 17.957988
+Total travelling time (rerouted): 49673.94980915442
+Number of vehicles: 102
+Empty kilometers(statistic): 521.9000000000009
+Empty kilometers(VS): 40.666666666666664
+Empty duration: 4.833333333333333
+Standing duration: 17.5
+Full kilometers: 1207.1999999999998
+Full duration: 79.66666666666667
+Duration: 102.0
+Length: 1247.8666666666666
+Total vehicle costs: 6971.799999999999
+Felt travelling time average: 20.836433

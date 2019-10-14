@@ -20,3 +20,5 @@ lc_common_frequency_divisor; 0
 lc_model; mult-cost-direct
 tim_model; MATCH
 vs_model; IP
+DM_earliest_time; 28800
+DM_latest_time; 93600

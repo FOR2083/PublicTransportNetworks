@@ -10,7 +10,7 @@ The independent characteristics of a solution are described and listed for the s
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
 | LINES													| number of lines																																| 7	| [-]	| 0700	| supply	|
 | VEHICLES												| number of vehicles																															| 36	| [-]	| 0700	| supply	|
-| SERVICES (RUNS)										| number of services (runs)																														| 1309	| [-]	| 0700	| supply	|
+| SERVICES (RUNS)										| number of services (runs)																														| 1235	| [-]	| 0700	| supply	|
 | VEHICLE KILOMETERS TOTAL								| sum of service and empty kilometers																											| 633.60	| [km]	| 0700	| supply	|
 | VEHICLE KILOMETERS SERVICE							| sum of kilometers travelled for the transport of passengers																					| 633.60	| [km]	| 0700	| supply	|
 | VEHICLE KILOMETERS EMPTY								| sum of kilometres travelled without passengers for pulling out from the depot, pulling in to the depot and interlining between two lines		| 0.00	| [km]	| 0700	| supply	|
@@ -25,10 +25,10 @@ The assignment dependent characteristics of a solution are described by the foll
 
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
-| MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 18.30	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 18.50	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 18.54	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 18.55	| [min]	| 0700	| demand	|
+| MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 18.29	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 18.48	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 18.49	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 18.48	| [min]	| 0700	| demand	|
 
 The final evaluation of a solution uses the indicators mean perceived journey time to describe the impact on the travelers and operating cost to describe the impact on the operator.
 
