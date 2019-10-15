@@ -8,27 +8,27 @@ The independent characteristics of a solution are described and listed for the s
 
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
-| LINES													| number of lines																																| t01	| [-]	| 0700	| supply	|
-| VEHICLES												| number of vehicles																															| t02	| [-]	| 0700	| supply	|
-| SERVICES (RUNS)										| number of services (runs)																														| t03	| [-]	| 0700	| supply	|
-| VEHICLE KILOMETERS TOTAL								| sum of service and empty kilometers																											| t04	| [km]	| 0700	| supply	|
-| VEHICLE KILOMETERS SERVICE							| sum of kilometers travelled for the transport of passengers																					| t05	| [km]	| 0700	| supply	|
-| VEHICLE KILOMETERS EMPTY								| sum of kilometres travelled without passengers for pulling out from the depot, pulling in to the depot and interlining between two lines		| t06	| [km]	| 0700	| supply	|
-| VEHICLE HOURS TOTAL									| sum of service and empty hours																												| t07	| [h]	| 0700	| supply	|
-| VEHICLE HOURS SERVICE									| sum of hours required for the transport of passengers																							| t08	| [h]	| 0700	| supply	|
-| VEHICLE HOURS EMPTY									| sum of hours required for pulling out, pulling in, interlining and standing at the terminal													| t09	| [h]	| 0700	| supply	|
-| OPERATING COST TOTAL									| sum of time and kilometer costs																												| t10	| [$]	| 0700	| supply	|
-| OPERATING COST TIME									| sum of costs for personell depending on working time																							| t11	| [$]	| 0700	| supply	|
-| OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| t12	| [$]	| 0700	| supply	|
+| LINES													| number of lines																																| 752	| [-]	| 0700	| supply	|
+| VEHICLES												| number of vehicles																															| 752	| [-]	| 0700	| supply	|
+| SERVICES (RUNS)										| number of services (runs)																														| 12784	| [-]	| 0700	| supply	|
+| VEHICLE KILOMETERS TOTAL								| sum of service and empty kilometers																											| 5779.20	| [km]	| 0700	| supply	|
+| VEHICLE KILOMETERS SERVICE							| sum of kilometers travelled for the transport of passengers																					| 5779.20	| [km]	| 0700	| supply	|
+| VEHICLE KILOMETERS EMPTY								| sum of kilometres travelled without passengers for pulling out from the depot, pulling in to the depot and interlining between two lines		| 0.00	| [km]	| 0700	| supply	|
+| VEHICLE HOURS TOTAL									| sum of service and empty hours																												| 393.07	| [h]	| 0700	| supply	|
+| VEHICLE HOURS SERVICE									| sum of hours required for the transport of passengers																							| 393.07	| [h]	| 0700	| supply	|
+| VEHICLE HOURS EMPTY									| sum of hours required for pulling out, pulling in, interlining and standing at the terminal													| 0.00	| [h]	| 0700	| supply	|
+| OPERATING COST TOTAL									| sum of time and kilometer costs																												| 46268.80	| [$]	| 0700	| supply	|
+| OPERATING COST TIME									| sum of costs for personell depending on working time																							| 37600.00	| [$]	| 0700	| supply	|
+| OPERATING COST KILOMETER								| sum of costs for fuel, repair, etc. depending on kilometric performance																		| 8668.80	| [$]	| 0700	| supply	|
 
 The assignment dependent characteristics of a solution are described by the following indicators:
 
 | Characteristics of the Solution						| Description																																	| Value	| Unit 	| Time 	| Category	|
 | --- 													| --- 																																			| ---	| ---	| ---	| ---		|
-| MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| t13	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| t14	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| t15	| [min]	| 0700	| demand	|
-| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| t16	| [min]	| 0700	| demand	|
+| MPJT - SHORTEST PATH 									| mean perceived journey time - shortest path, capacity constraints are not considered 															| 13.75	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are not considered, distribution in 1 minute time intervalls 					| 14.92	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 10 minute time intervalls						| 15.11	| [min]	| 0700	| demand	|
+| MPJT - MULTIPATH WITHOUT CAPACITY RESTRICTIONS		| mean perceived journey time - multipath, capacity constraints are considered, distribution in 1 minute time intervalls						| 14.92	| [min]	| 0700	| demand	|
 
 The final evaluation of a solution uses the indicators mean perceived journey time to describe the impact on the travelers and operating cost to describe the impact on the operator.
 
