@@ -1,6 +1,6 @@
 # Solutions
 
-![grid_network](https://github.com/FOR2083/PublicTransportNetworks/tree/master/%20%20 Grid_5x5/Input/Image/Pareto-Front.jpg)
+![grid_network](https://github.com/FOR2083/PublicTransportNetworks/tree/master/%20%20Grid_5x5/Input/Image/Pareto-Front.jpg)
 
 | ID				| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Operating Cost [$]	| Mean Perceived Journey Time [min] (Shortest Path)	| Solution Title
 | ---				| ---				| ---					| ---						| ---				| ---					| ---												| ---
