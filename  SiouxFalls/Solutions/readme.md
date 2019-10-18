@@ -1,6 +1,6 @@
 # Solutions
 
-![siouxfalls_network](https://github.com/FOR2083/PublicTransportNetworks/ SiouxFalls/Input/Image/Pareto-Front.jpg)
+![siouxfalls_pareto-front](https://github.com/FOR2083/PublicTransportNetworks/ SiouxFalls/Input/Image/Pareto-Front.jpg)
 
 | ID				| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Operating Cost [$]	| Mean Perceived Journey Time [min] (Shortest Path)	| Solution Title
 | ---				| ---				| ---					| ---						| ---				| ---					| ---												| ---

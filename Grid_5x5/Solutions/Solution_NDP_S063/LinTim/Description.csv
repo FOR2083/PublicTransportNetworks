@@ -1,0 +1,9 @@
+INFO_SOLUTION_PROVIDER_NAME; LinTim(Alexander Schiewe)
+INFO_SOLUTION_PROVIDER_EMAIL; a.schiewe@math.uni-goettingen.de
+INFO_SOLUTION_INITAL_ASSIGNMENT; Reduction model in the PTN
+INFO_SOLUTION_LINEPOOL; planner lines, tree-based lines, shortest paths
+INFO_SOLUTION_LINE_PLANNING; cost model
+INFO_SOLUTION_TIMETABLE; Constraint Propagation and Network Simplex
+INFO_SOLUTION_TYPE; (A)lgorithmic Solution
+INFO_SOLUTION_VEHICLE_SCHEDULING; Canal model
+INFO_SOLUTION_DESCRIPTION; Using a cost-oriented initial passenger assignment to reduce overall costs

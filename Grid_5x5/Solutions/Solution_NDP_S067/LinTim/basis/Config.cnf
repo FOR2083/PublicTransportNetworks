@@ -1,0 +1,62 @@
+setting-name; setting-value
+include; "../../Global-Config.cnf"
+# ===========================================================================
+# === LOCAL_ONLY from Global-Config.cnf =====================================
+# ===========================================================================
+ptn_name; "Grid"
+period_length; 60
+time_units_per_minute; 1
+# speed of the vehicles in km/h
+gen_vehicle_speed; 20
+gen_conversion_length; 1
+gen_conversion_coordinates; 0.02
+ean_default_minimal_waiting_time; 0
+ean_default_maximal_waiting_time; 3
+ean_default_minimal_change_time; 3
+ean_default_maximal_change_time; 62
+ean_change_penalty; 5
+# interpolated from Load.giv.nominal
+lc_passengers_per_vehicle; 70
+# ===========================================================================
+# === Network Specific Settings =============================================
+# ===========================================================================
+stops_header; "stop-id; short-name; long-name; x-coordinate; y-coordinate"
+odptn_missing_values; "GLOBAL_MEAN_VALUE"
+lpool_evaluate_average_traveling_time_lower_bound; true
+# ===========================================================================
+# === State / Experiments / Automatization ==================================
+# ===========================================================================
+include_if_exists; "State-Config.cnf"
+include_if_exists; "Private-Config.cnf"
+include_if_exists; "After-Config.cnf"
+# ===========================================================================
+# === Visum Import Parameters ===============================================
+# ===========================================================================
+default_lines_starting_time_file; timetabling/Line-starting-times.lin
+workbook_name; "D03_N01_S01_V001_01_P1.xlsx"
+nodes_sheet_name; Knoten
+edges_sheet_name; Strecken
+od_sheet_name; Matrix
+line_sheet_name; Linienrouten
+info_sheet_name; Info
+timetable_sheet_name; Fahrplanfahrten
+index_row; 5
+stop_short_name_label; $KNOTEN:NR
+stop_long_name_label; NAME
+stop_x_coordinate_label; XKOORD
+stop_y_coordinate_label; YKOORD
+edge_source_label; VONKNOTNR
+edge_target_label; NACHKNOTNR
+edge_length_label; LAENGE
+edge_load_label;BELPERS-NSEG(ÖV,0700)
+od_source_label; $BEZIRKSBEZIEHUNG:VONBEZNR
+od_target_label; NACHBEZNR
+od_value_label;MATWERT(66)
+line_name_label; $LINIENROUTENELEMENT:LINNAME
+line_stop_label; HPUNKTNR
+line_direction_label; RICHTUNGCODE
+line_info_name_label; Linie
+line_info_headway_label; Takt
+timetable_line_name_label; LINNAME
+timetable_direction_label; RICHTUNGCODE
+timetable_departure_label; ABFAHRT

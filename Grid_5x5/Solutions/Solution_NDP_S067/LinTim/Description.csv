@@ -1,0 +1,9 @@
+INFO_SOLUTION_PROVIDER_NAME; LinTim(Alexander Schiewe)
+INFO_SOLUTION_PROVIDER_EMAIL; a.schiewe@math.uni-goettingen.de
+INFO_SOLUTION_INITAL_ASSIGNMENT; Planner load
+INFO_SOLUTION_LINEPOOL; Planner lines, straight lines, tree-based line pool generation, shortest paths
+INFO_SOLUTION_LINE_PLANNING; direct model
+INFO_SOLUTION_TIMETABLE; Timetabling with integrated passenger routing
+INFO_SOLUTION_TYPE; (A)lgorithmic Solution
+INFO_SOLUTION_VEHICLE_SCHEDULING; IP model
+INFO_SOLUTION_DESCRIPTION; Integrating the passenger routing into the timetabling to improve the quality of the resulting timetable

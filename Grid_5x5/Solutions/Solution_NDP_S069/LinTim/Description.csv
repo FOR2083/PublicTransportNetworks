@@ -1,0 +1,9 @@
+INFO_SOLUTION_PROVIDER_NAME; LinTim(Alexander Schiewe)
+INFO_SOLUTION_PROVIDER_EMAIL; a.schiewe@math.uni-goettingen.de
+INFO_SOLUTION_INITAL_ASSIGNMENT; Reduction model in the CGN
+INFO_SOLUTION_LINEPOOL; Planner lines, tree-based line pool generation
+INFO_SOLUTION_LINE_PLANNING; cost model
+INFO_SOLUTION_TIMETABLE; integrated timetabling and passenger routing, all passengers, 4 h timelimit
+INFO_SOLUTION_TYPE; (A)lgorithmic Solution
+INFO_SOLUTION_VEHICLE_SCHEDULING; Canal model
+INFO_SOLUTION_DESCRIPTION; Using an integrated model for timetabling
