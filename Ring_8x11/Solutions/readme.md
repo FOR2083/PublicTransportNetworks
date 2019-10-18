@@ -1,6 +1,6 @@
 # Solutions
 
-![pareto-front](Input/Image/Pareto-Front.jpg)
+![pareto-front](https://github.com/FOR2083/PublicTransportNetworks/blob/master/Ring_8x11/Input/Image/Pareto-Front.jpg)
 
 | ID				| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Operating Cost [$]	| Mean Perceived Journey Time [min] (Shortest Path)	| Solution Title
 | ---				| ---				| ---					| ---						| ---				| ---					| ---												| ---
