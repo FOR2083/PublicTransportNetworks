@@ -1,6 +1,10 @@
 # Solutions
 
+<<<<<<< HEAD:   Grid_5x5/Solutions/readme.md
 ![Pareto-Front](Input/Image/Pareto-Front.jpg)
+=======
+![grid_network](https://github.com/FOR2083/PublicTransportNetworks/tree/master/Grid_5x5/Input/Image/Pareto-Front.jpg)
+>>>>>>> 24c7514498264a58ac1b4eaf43c71de837fc5d94:Grid_5x5/Solutions/readme.md
 
 | ID				| No of Lines [-]	| No of Vehicles [-]	| Vehicle Kilometers [km]	| Vehicle Hours [h]	| Operating Cost [$]	| Mean Perceived Journey Time [min] (Shortest Path)	| Solution Title
 | ---				| ---				| ---					| ---						| ---				| ---					| ---												| ---
