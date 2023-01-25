@@ -20,7 +20,7 @@ A network based on VRS_2030 for the city of Stuttgart.
 
 ![Stuttgart_demand](Input/Image/Demand.jpg)
 
-Attention: only the first 100 greatest values for odpairs are displayed.
+Traffic volumes based on shortest path assignment
 ![Stuttgart_demand_od](Input/Image/Demand_OD.jpg)
 
 ## Vehicle and Operating Cost Data
