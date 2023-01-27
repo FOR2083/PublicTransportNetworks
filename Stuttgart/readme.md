@@ -42,7 +42,7 @@ Every transfer requires a minimum transfer time of 3 minutes.
 ## Perceived Journey Time
 Evaluating the service quality considers in-vehicle time IVT, transfer wait time TWT, walk time WT and number of transfers NoT. Every transfer is weighted with a time penalty of 5 minutes. Access and egress times are not included. For the route choice in the assignment and for evaluating the service quality a perceived journey time is computed
 
-PJT = 1.0 * IVT + 1.0 * TWT + 1.5 * WT 5.0 * NoT. 
+PJT = 1.0 * IVT + 1.0 * TWT + 1.5 * WT + 5.0 * NoT. 
 
 | Factor            | Value  | Unit         | 
 | ---               | ---    |---           |
