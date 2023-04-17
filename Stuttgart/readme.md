@@ -24,7 +24,7 @@ Traffic volumes based on shortest path assignment
 ![Stuttgart_demand_od](Input/Image/Demand_OD.jpg)
 
 ## Vehicle and Operating Cost Data
-One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 $/h and 1.50 $/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. The minimum layover times at the terminals amount to 180 seconds.
+One vehicle type with a capacity of 70 places is available. The costs for one vehicle including the driver amount to 50 €/h and 1.50 €/km. Different to interlining trips, pull-out and pull-in trips from and to the depot are not considered. The minimum layover times at the terminals amount to 180 seconds.
 
 | Vehicle           | Value  | Unit     | 
 | ---               | ---    |---       |
@@ -48,5 +48,5 @@ PJT = 1.0 * IVT + 1.0 * TWT + 1.5 * WT + 5.0 * NoT.
 | ---               | ---    |---           |
 | in-vehicle time   |    1.0 |  [-]         |
 | transfer wait time|    1.0 |  [-]         |
-| walk time			|    1.5 |  [-]         |
+| walk time		    	|    1.5 |  [-]         |
 | transfer          |    5.0 |[min/transfer]|
