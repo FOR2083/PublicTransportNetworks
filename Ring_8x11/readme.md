@@ -1,4 +1,4 @@
-# Grid 5x5 Instance
+# Ring 8x11 Instance
 
 ## Description
 A ring network with 11 rings and 8 radial axes.
