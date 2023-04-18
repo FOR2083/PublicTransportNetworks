@@ -20,13 +20,15 @@ on any of the datasets provided in this web site.  The Research Group FOR 2083 i
 
 # Summary of Networks
 
-| Network                                            | Zones | Links  | Nodes  |
-| ---                                                | ---   | ---    | ---    |
-| Grid                                               |    25 |     80 |     25 |
-| Ring                                               |   161 |    640 |    161 |
-| SiouxFalls                                         |    24 |     76 |     24 |
-| Erding											                       |    52 |    146 |     52 |
-| Stuttgart                                          |   588 |   1436 |    577 |
+| Network                                            | Zones | Links  | Nodes  | Stops  |
+| ---                                                | ---   | ---    | ---    | ---    |
+| Grid 5x5                                           |    25 |     80 |     25 |     25 |
+| Grid 21x21                                         |   100 |   1680 |    441 |    341 |
+| Ring 8x11                                          |   161 |    640 |    161 |    161 |
+| Ring 16x22                                         |   672 |   6720 |   2689 |    673 |
+| SiouxFalls                                         |    24 |     76 |     24 |     74 |
+| Erding											                       |    52 |    146 |     52 |     52 |
+| Stuttgart                                          |   588 |   1436 |    577 |    577 |
 
 # Formats
 The  data is provided in the following formats
@@ -37,5 +39,5 @@ The  data is provided in the following formats
   
 
 # Other Related Projects
-- [LinTim](https://lintim.math.uni-goettingen.de/index.php?go=main.php&lang=en)
+- [LinTim](https://lintim.net/)
 - [Transportation Networks](https://github.com/bstabler/TransportationNetworks)
