@@ -16,7 +16,7 @@ A network based on VRS_2030 for the city of Stuttgart.
 | Demand       | Value  | Unit       | 
 | ---          | ---    |---         |
 | OD-pairs     |345,156 | [-]        |
-| Trips        | 10,931 | [Trips/h]  |
+| Trips        | 43,725 | [Trips/h]  |
 
 ![Stuttgart_demand](Input/Image/Demand.jpg)
 
